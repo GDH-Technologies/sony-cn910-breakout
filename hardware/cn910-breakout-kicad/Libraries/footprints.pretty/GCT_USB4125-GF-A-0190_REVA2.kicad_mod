@@ -627,4 +627,15 @@
 		(uuid "f7699837-958b-4f90-b2ad-91957935a025")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/Libraries/3D Models/USB4125-GF-A-0190_REVA2.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )

@@ -1684,7 +1684,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CN910 Breakout Footprints:Molex_0731000154_BNC_RA_THT"
+		(property "Footprint" "CN910 Breakout Footprints:GRADCONN_RFPC-SMA28-F"
 			(at 80.01 156.21 0)
 			(effects
 				(font
@@ -2018,7 +2018,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CN910 Breakout Footprints:Molex_0731000154_BNC_RA_THT"
+		(property "Footprint" "CN910 Breakout Footprints:GRADCONN_RFPC-SMA28-F"
 			(at 48.26 181.61 0)
 			(effects
 				(font
@@ -2220,7 +2220,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CN910 Breakout Footprints:Molex_0731000154_BNC_RA_THT"
+		(property "Footprint" "CN910 Breakout Footprints:GRADCONN_RFPC-SMA28-F"
 			(at 48.26 148.59 0)
 			(effects
 				(font
@@ -2474,7 +2474,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CN910 Breakout Footprints:Molex_0731000154_BNC_RA_THT"
+		(property "Footprint" "CN910 Breakout Footprints:GRADCONN_RFPC-SMA28-F"
 			(at 48.26 165.1 0)
 			(effects
 				(font
