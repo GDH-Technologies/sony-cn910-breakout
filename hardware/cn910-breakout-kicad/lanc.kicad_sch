@@ -1228,7 +1228,7 @@
 	)
 	(rectangle
 		(start 191.77 55.88)
-		(end 255.27 114.3)
+		(end 261.62 114.3)
 		(stroke
 			(width 0)
 			(type default)
@@ -1252,7 +1252,7 @@
 	)
 	(rectangle
 		(start 104.14 31.75)
-		(end 167.64 91.44)
+		(end 173.99 91.44)
 		(stroke
 			(width 0)
 			(type default)
@@ -1984,7 +1984,7 @@
 		)
 		(uuid "d2a9926b-4ef0-4bc5-ba96-16c5582b19ca")
 	)
-	(hierarchical_label "GPIO1"
+	(hierarchical_label "LANC_SIG_GPIO"
 		(shape output)
 		(at 157.48 58.42 0)
 		(effects
@@ -2006,7 +2006,7 @@
 		)
 		(uuid "f1c7eea6-652f-4e9c-bd36-05050131440c")
 	)
-	(hierarchical_label "GPIO2"
+	(hierarchical_label "XCPC_IN_GPIO"
 		(shape output)
 		(at 245.11 81.28 0)
 		(effects
