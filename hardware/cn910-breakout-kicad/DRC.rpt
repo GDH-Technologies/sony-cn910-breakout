@@ -1,0 +1,37 @@
+** Drc report for cn910-breakout.kicad_pcb **
+** Created on 2026-04-23T19:30:11-0500 **
+** Report includes: Errors, Warnings, Exclusions **
+
+** Found 8 DRC violations **
+[annular_width]: Annular width (board setup constraints min annular width 0.1500 mm; actual 0.0000 mm)
+    Rule: board setup constraints; error
+    @(95.8000 mm, 63.9000 mm): PTH pad 5 [<no net>] of SW1
+[annular_width]: Annular width (board setup constraints min annular width 0.1500 mm; actual 0.0000 mm)
+    Rule: board setup constraints; error
+    @(104.0000 mm, 63.9000 mm): PTH pad 4 [<no net>] of SW1
+[lib_footprint_mismatch]: Footprint 'RaspberryPi_Pico_Common_Unspecified' does not match copy in library 'Module'.
+    Local override; warning
+    @(122.4000 mm, 93.7000 mm): Footprint A1
+[padstack]: Padstack is questionable (PTH pad hole leaves no copper)
+    Local override; warning
+    @(95.8000 mm, 63.9000 mm): PTH pad 5 [<no net>] of SW1
+[padstack]: Padstack is questionable (PTH pad hole leaves no copper)
+    Local override; warning
+    @(104.0000 mm, 63.9000 mm): PTH pad 4 [<no net>] of SW1
+[lib_footprint_mismatch]: Footprint 'PinHeader_1x03_P2.54mm_Vertical' does not match copy in library 'Connector_PinHeader_2.54mm'.
+    Local override; warning (excluded)
+    @(92.5000 mm, 95.9400 mm): Footprint JP1
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0000 mm)
+    Local override; error (excluded)
+    @(92.3750 mm, 69.0500 mm): Pad P1 [unconnected-(J1-PadP1)] of J1 on F.Cu
+    @(93.9000 mm, 68.4000 mm): Polygon [<no net>] of J1 on F.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0000 mm)
+    Local override; error (excluded)
+    @(92.3750 mm, 80.3500 mm): Pad P2 [unconnected-(J1-PadP2)] of J1 on F.Cu
+    @(93.9000 mm, 81.0000 mm): Polygon [<no net>] of J1 on F.Cu
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **
