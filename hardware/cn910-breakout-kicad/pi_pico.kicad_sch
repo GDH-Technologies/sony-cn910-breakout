@@ -5,6 +5,8 @@
 	(uuid "edc6c13e-094b-46fa-aa75-04be0092a9e0")
 	(paper "A4")
 	(title_block
+		(title "Pi Pico")
+		(date "2026-04-28")
 		(company "GDH Technologies LLC")
 	)
 	(lib_symbols

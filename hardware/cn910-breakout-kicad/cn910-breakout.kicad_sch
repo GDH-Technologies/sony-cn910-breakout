@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Sony CCD-TRV615 ADA4857 Amp")
-		(date "2026-04-15")
+		(date "2026-04-28")
 		(rev "1.0")
 		(company "GDH Technologies LLC")
 		(comment 1 "CC BY-SA 4.0")
@@ -8871,7 +8871,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "c6b6115b-70e7-4bd4-b322-2db2a53e7ff7")
-		(property "Sheetname" "CN910 Breakout + Raspberry Pi Pico"
+		(property "Sheetname" "Pi Pico"
 			(at 101.6 150.4184 0)
 			(effects
 				(font
