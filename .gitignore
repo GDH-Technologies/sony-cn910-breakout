@@ -38,3 +38,11 @@ fp-info-cache
 
 # Local project settings
 *.kicad_prl
+
+# Local git-based history (KiCad 9.0+ autosave repo)
+.history
+
+# KiCad-MCP server artifacts
+snapshots/
+logs/
+**/jlcpcb_parts.db
