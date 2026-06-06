@@ -1,35 +1,35 @@
 (version 1)
 
 # =====================================================================
-# PCBWay fab profile - custom design rules
+# JLCPCB fab profile - custom design rules
 # =====================================================================
 # The enforced minimums for this profile live in the project's Board
-# Setup > Constraints (stored in PCBWay.kicad_pro). They are keyed to
-# PCBWay's STANDARD prototype process (no extra cost / recommended):
+# Setup > Constraints (stored in JLCPCB.kicad_pro). They are keyed to
+# JLCPCB's STANDARD 2-layer, 1 oz process (no extra cost):
 #
-#   min track width / clearance .... 0.15 mm (6 mil)
-#   min via diameter / drill ........ 0.50 / 0.25 mm
+#   min track width / clearance .... 0.127 mm (5 mil)
+#   min via diameter / drill ........ 0.45 / 0.20 mm
 #   min through-hole drill .......... 0.30 mm
 #   min via annular ring ............ 0.13 mm
-#   min hole-to-hole ................ 0.50 mm
+#   min hole-to-hole ................ 0.254 mm
 #   min copper-to-edge .............. 0.30 mm
 #
 # ---------------------------------------------------------------------
 # MAX CAPABILITY (NOT enforced here - incurs upcharge / DFM review).
-# Source: pcbway.com manufacturing tolerances & advanced PCB
-# capabilities (captured 2026-06). Tighten the constraints above
-# per-board only if you have confirmed the pricing/process.
+# Source: https://jlcpcb.com/capabilities/pcb-capabilities (captured 2026-06).
+# Tighten the constraints above per-board only if you have confirmed the
+# pricing/process for your specific order.
 #
-#   trace / space .... 0.0762 mm (3 mil) standard limit
-#                      0.05 mm (2/2 mil) advanced, partial board only
-#   min hole (CNC) ... 0.15 mm
-#   min hole (laser) . 0.10 mm (blind/buried)
-#   via annular ring . 0.075 mm (3 mil)
-#   hole-to-edge ..... per quote
+#   trace / space .... down to 0.0889 mm (3.5 mil) multilayer
+#                      3 mil allowed only in BGA fan-outs
+#   via drill / pad .. 0.20 / 0.45 mm (4-layer)
+#   min PTH drill .... 0.15 mm
+#   min via annular .. 0.13 mm
+#   drill increments . 0.05 mm
 # ---------------------------------------------------------------------
 #
 # Example enforcement rule (commented out). Uncomment and edit to make
-# DRC flag any track narrower than the PCBWay economy minimum:
+# DRC flag any track narrower than the JLCPCB economy minimum:
 #
-# (rule "PCBWay min track"
-#   (constraint track_width (min 0.15mm)))
+# (rule "JLCPCB min track"
+#   (constraint track_width (min 0.127mm)))

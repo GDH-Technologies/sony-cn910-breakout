@@ -4,6 +4,11 @@
 	(generator_version "10.0")
 	(uuid "8f1aaed2-8fbd-4c24-acdd-ec6fede04341")
 	(paper "A4")
+	(title_block
+		(title "${proj-title}")
+		(rev "${proj-version}")
+		(company "${proj-company}")
+	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
 			(pin_numbers
@@ -2560,23 +2565,13 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 71.12) (xy 153.67 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0baad092-bc24-4eca-991a-1a23d24e37cb")
-	)
-	(wire
-		(pts
 			(xy 139.7 101.6) (xy 151.13 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0fa77e04-c071-43b2-a696-9c1c90f10a4b")
+		(uuid "033c039e-00c8-4060-8fc9-951498aa887c")
 	)
 	(wire
 		(pts
@@ -2607,16 +2602,6 @@
 			(type default)
 		)
 		(uuid "34ea4573-4727-4798-a151-0f63e426390c")
-	)
-	(wire
-		(pts
-			(xy 105.41 58.42) (xy 105.41 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "373c10ca-5015-4025-a75c-40be2ba89c33")
 	)
 	(wire
 		(pts
@@ -2657,6 +2642,16 @@
 			(type default)
 		)
 		(uuid "3e28f3a1-121a-425c-a240-b27629970148")
+	)
+	(wire
+		(pts
+			(xy 138.43 71.12) (xy 153.67 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4021e5e8-e59e-43dd-b44e-acccafac17cb")
 	)
 	(wire
 		(pts
@@ -2790,7 +2785,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 128.27) (xy 76.2 133.35)
+			(xy 77.47 134.62) (xy 77.47 139.7)
 		)
 		(stroke
 			(width 0)
@@ -2810,7 +2805,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 146.05) (xy 76.2 151.13)
+			(xy 110.49 149.86) (xy 110.49 151.13)
 		)
 		(stroke
 			(width 0)
@@ -2858,8 +2853,18 @@
 		)
 		(uuid "ec1eb9f9-d80d-4910-8802-d87a09184d26")
 	)
+	(wire
+		(pts
+			(xy 110.49 142.24) (xy 110.49 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec78a32d-b09d-4d5e-b187-912e8b3779e3")
+	)
 	(label "PB_RF"
-		(at 76.2 120.65 0)
+		(at 77.47 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2909,7 +2914,7 @@
 		(uuid "80346eb2-a015-4169-b628-0d68df12dbe5")
 	)
 	(label "REC_RF"
-		(at 76.2 138.43 0)
+		(at 110.49 138.43 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3189,7 +3194,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 76.2 124.46 0)
+		(at 77.47 130.81 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3199,7 +3204,7 @@
 		(dnp no)
 		(uuid "2e0edac7-9622-4cbc-a03f-ab6ada52b82a")
 		(property "Reference" "R1"
-			(at 78.232 124.46 90)
+			(at 79.502 130.81 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3209,7 +3214,7 @@
 			)
 		)
 		(property "Value" "470"
-			(at 76.2 124.46 90)
+			(at 77.47 130.81 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3219,7 +3224,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 74.422 124.46 0)
+			(at 75.692 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3230,7 +3235,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 76.2 124.46 0)
+			(at 77.47 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3241,7 +3246,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 76.2 124.46 0)
+			(at 77.47 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3584,7 +3589,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 76.2 151.13 0)
+		(at 110.49 151.13 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -3595,7 +3600,7 @@
 		(dnp no)
 		(uuid "5a8dfb6d-61b0-40a2-9380-27b3d0b2ee63")
 		(property "Reference" "TP3"
-			(at 78.74 155.7021 0)
+			(at 113.03 155.7021 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3606,7 +3611,7 @@
 			)
 		)
 		(property "Value" "TP_REC_RF"
-			(at 78.74 153.1621 0)
+			(at 113.03 153.1621 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3616,8 +3621,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
-			(at 81.28 151.13 0)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm"
+			(at 115.57 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3628,7 +3633,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 151.13 0)
+			(at 115.57 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3639,7 +3644,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 76.2 151.13 0)
+			(at 110.49 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3820,7 +3825,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 76.2 142.24 0)
+		(at 110.49 146.05 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3830,7 +3835,7 @@
 		(dnp no)
 		(uuid "81ddd52a-d46b-4788-9225-4283ae6c4496")
 		(property "Reference" "R2"
-			(at 78.232 142.24 90)
+			(at 112.522 146.05 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3840,7 +3845,7 @@
 			)
 		)
 		(property "Value" "470"
-			(at 76.2 142.24 90)
+			(at 110.49 146.05 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3850,7 +3855,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 74.422 142.24 0)
+			(at 108.712 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3861,7 +3866,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 76.2 142.24 0)
+			(at 110.49 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3872,7 +3877,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 76.2 142.24 0)
+			(at 110.49 146.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3976,7 +3981,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Alt")
-		(at 105.41 57.15 0)
+		(at 105.41 58.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3987,7 +3992,7 @@
 		(fields_autoplaced yes)
 		(uuid "9e4cc2c8-d01e-4df6-a271-cf3df86758f6")
 		(property "Reference" "TP4"
-			(at 107.95 52.5779 0)
+			(at 107.95 53.8479 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3998,7 +4003,7 @@
 			)
 		)
 		(property "Value" "TP_LANC_SIG"
-			(at 107.95 55.1179 0)
+			(at 107.95 56.3879 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4009,7 +4014,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm"
-			(at 110.49 57.15 0)
+			(at 110.49 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4020,7 +4025,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 110.49 57.15 0)
+			(at 110.49 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4031,7 +4036,7 @@
 			)
 		)
 		(property "Description" "test point (alternative shape)"
-			(at 105.41 57.15 0)
+			(at 105.41 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4055,7 +4060,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 76.2 133.35 0)
+		(at 77.47 139.7 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4066,29 +4071,29 @@
 		(fields_autoplaced yes)
 		(uuid "b9bdfa6b-97f7-4cb5-b505-7e041558b5e1")
 		(property "Reference" "TP2"
-			(at 78.74 128.7779 0)
+			(at 80.01 141.7319 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "TP_PB_RF"
-			(at 78.74 131.3179 0)
+			(at 80.01 144.2719 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
-			(at 81.28 133.35 0)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm"
+			(at 72.39 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4099,7 +4104,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 133.35 0)
+			(at 72.39 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4110,7 +4115,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 76.2 133.35 0)
+			(at 77.47 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4305,7 +4310,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "eb01785c-ce0a-4a75-86ce-4dc4450dd59b")
 		(property "Reference" "#PWR03"
 			(at 101.6 82.55 0)
@@ -4319,7 +4323,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 101.6 81.28 0)
+			(at 101.6 79.756 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
