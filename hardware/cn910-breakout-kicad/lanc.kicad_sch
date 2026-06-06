@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(date "2026-04-28")
-		(company "GDH Technologies LLC")
+		(company "${proj-company}")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
@@ -325,7 +325,7 @@
 				)
 			)
 			(property "Description" "Jumper, 3-pole, pins 1+2 closed/bridged"
-				(at 0 0 0)
+				(at 0 -11.43 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -359,7 +359,7 @@
 			)
 			(symbol "Jumper_3_Bridged12_0_0"
 				(circle
-					(center -3.302 0)
+					(center -2.032 0)
 					(radius 0.508)
 					(stroke
 						(width 0)
@@ -381,7 +381,7 @@
 					)
 				)
 				(circle
-					(center 3.302 0)
+					(center 2.032 0)
 					(radius 0.508)
 					(stroke
 						(width 0)
@@ -394,8 +394,8 @@
 			)
 			(symbol "Jumper_3_Bridged12_0_1"
 				(arc
-					(start -3.048 0.508)
-					(mid -1.651 0.9912)
+					(start -2.032 0.508)
+					(mid -1.143 0.8155)
 					(end -0.254 0.508)
 					(stroke
 						(width 0)
@@ -420,7 +420,7 @@
 			)
 			(symbol "Jumper_3_Bridged12_1_1"
 				(pin passive line
-					(at -6.35 0 0)
+					(at -5.08 0 0)
 					(length 2.54)
 					(name "A"
 						(effects
@@ -456,7 +456,7 @@
 					)
 				)
 				(pin passive line
-					(at 6.35 0 180)
+					(at 5.08 0 180)
 					(length 2.54)
 					(name "B"
 						(effects
@@ -1570,7 +1570,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 107.95) (xy 48.26 107.95)
+			(xy 43.18 107.95) (xy 49.53 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1637,6 +1637,16 @@
 			(type default)
 		)
 		(uuid "461b466a-53f0-4c96-8e8b-67c8bf8aeb3d")
+	)
+	(wire
+		(pts
+			(xy 59.69 107.95) (xy 67.31 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49c9b85c-735c-47fe-903e-4c1e02d0ee94")
 	)
 	(wire
 		(pts
@@ -1827,16 +1837,6 @@
 			(type default)
 		)
 		(uuid "afa8398b-2eee-4929-8150-0cd3fc494a75")
-	)
-	(wire
-		(pts
-			(xy 60.96 107.95) (xy 67.31 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2857b0f-cecd-4629-925b-32feb06e0542")
 	)
 	(wire
 		(pts
