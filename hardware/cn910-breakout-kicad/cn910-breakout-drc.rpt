@@ -1,0 +1,49 @@
+** Drc report for cn910-breakout.kicad_pcb **
+** Created on 2026-06-05T21:34:31 **
+** Report includes: Errors, Warnings, Exclusions **
+
+** Found 8 DRC violations **
+[lib_footprint_mismatch]: Footprint 'GRADCONN_RFPC-SMA28-F' does not match copy in library 'GDH Connectors'
+    Local override; warning
+    @(110.2500 mm, 112.1900 mm): Footprint J5
+[lib_footprint_mismatch]: Footprint 'GRADCONN_RFPC-SMA28-F' does not match copy in library 'GDH Connectors'
+    Local override; warning
+    @(101.2500 mm, 112.1900 mm): Footprint J4
+[lib_footprint_mismatch]: Footprint 'GRADCONN_RFPC-SMA28-F' does not match copy in library 'GDH Connectors'
+    Local override; warning
+    @(129.2400 mm, 112.2000 mm): Footprint J6
+[lib_footprint_mismatch]: Footprint 'GRADCONN_RFPC-SMA28-F' does not match copy in library 'GDH Connectors'
+    Local override; warning
+    @(120.2000 mm, 112.2000 mm): Footprint J7
+[lib_footprint_mismatch]: Footprint 'PinHeader_1x03_P2.54mm_Vertical' does not match copy in library 'Connector_PinHeader_2.54mm'
+    Local override; warning (excluded)
+    @(92.5000 mm, 95.9400 mm): Footprint JP1
+[lib_footprint_mismatch]: Footprint 'Slide_Switch_SS12D07_CNK' does not match copy in library 'GDH Switches'
+    Local override; warning (excluded)
+    @(101.4500 mm, 63.5000 mm): Footprint SW1
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 8.000e-06 mm)
+    Local override; error (excluded)
+    @(92.3750 mm, 69.0500 mm): Pad P1 [unconnected-(J1-PadP1)] of J1 on F.Cu
+    @(93.9000 mm, 68.4000 mm): Polygon [<no net>] of J1 on F.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 8.000e-06 mm)
+    Local override; error (excluded)
+    @(92.3750 mm, 80.3500 mm): Pad P2 [unconnected-(J1-PadP2)] of J1 on F.Cu
+    @(93.9000 mm, 81.0000 mm): Polygon [<no net>] of J1 on F.Cu
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Silkscreen clearance
+    - Silkscreen clipped by solder mask
+    - Silkscreen clipped by board edge
+    - PTH inside courtyard
+    - NPTH inside courtyard
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **

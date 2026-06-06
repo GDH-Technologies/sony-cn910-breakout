@@ -12,7 +12,7 @@
 		(comment 1 "CC BY-SA 4.0")
 	)
 	(lib_symbols
-		(symbol "CN910 Breakout Symbols:CN910_FPC_CON"
+		(symbol "GDH Connectors:CN910_FPC_CON"
 			(body_styles demorgan)
 			(pin_names
 				(offset 0.254)
@@ -42,7 +42,7 @@
 					)
 				)
 			)
-			(property "Footprint" "vhs_decode_footprints:CON_527461671_MOL"
+			(property "Footprint" "GDH Connectors:CON_527461671_MOL"
 				(at 12.7 4.826 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3482,7 +3482,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "USB4125-GF-A-0190_REVA2:USB4125-GF-A-0190_REVA2"
+		(symbol "GDH Connectors:USB4125-GF-A-0190_REVA2"
 			(pin_names
 				(offset 1.016)
 			)
@@ -3513,7 +3513,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "USB4125-GF-A-0190_REVA2:GCT_USB4125-GF-A-0190_REVA2"
+			(property "Footprint" "GDH Connectors:GCT_USB4125-GF-A-0190_REVA2"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3790,7 +3790,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ada4857:ADA4857-1YRZ"
+		(symbol "GDH Amplifiers:ADA4857-1YRZ-R7"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3849,7 +3849,7 @@
 					)
 				)
 			)
-			(symbol "ADA4857-1YRZ_1_1"
+			(symbol "ADA4857-1YRZ-R7_0_1"
 				(rectangle
 					(start -12.7 12.7)
 					(end 12.7 -12.7)
@@ -6443,7 +6443,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CN910 Breakout Footprints:Slide_Switch_SS12D07_CNK"
+		(property "Footprint" "GDH Switches:Slide_Switch_SS12D07_CNK"
 			(at 214.63 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -7007,7 +7007,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CN910 Breakout Footprints:Molex_0731000154_BNC_RA_THT"
+		(property "Footprint" "GDH Connectors:Molex_0731000154_BNC_RA_THT"
 			(at 232.41 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -7229,7 +7229,7 @@
 		)
 	)
 	(symbol
-		(lib_id "USB4125-GF-A-0190_REVA2:USB4125-GF-A-0190_REVA2")
+		(lib_id "GDH Connectors:USB4125-GF-A-0190_REVA2")
 		(at 33.02 43.18 0)
 		(mirror y)
 		(unit 1)
@@ -7262,7 +7262,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CN910 Breakout Footprints:GCT_USB4125-GF-A-0190_REVA2"
+		(property "Footprint" "GDH Connectors:GCT_USB4125-GF-A-0190_REVA2"
 			(at 33.02 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -7809,7 +7809,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ada4857:ADA4857-1YRZ")
+		(lib_id "GDH Amplifiers:ADA4857-1YRZ-R7")
 		(at 181.61 127 0)
 		(unit 1)
 		(body_style 1)
@@ -8564,7 +8564,7 @@
 		)
 	)
 	(symbol
-		(lib_id "CN910 Breakout Symbols:CN910_FPC_CON")
+		(lib_id "GDH Connectors:CN910_FPC_CON")
 		(at 45.72 132.08 0)
 		(unit 1)
 		(body_style 1)
@@ -8594,7 +8594,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CN910 Breakout Footprints:CON_527461671_MOL"
+		(property "Footprint" "GDH Connectors:CON_527461671_MOL"
 			(at 58.42 127.254 0)
 			(hide yes)
 			(show_name no)

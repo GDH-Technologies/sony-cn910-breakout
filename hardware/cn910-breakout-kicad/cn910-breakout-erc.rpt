@@ -1,0 +1,242 @@
+ERC report (2026-06-05T21:34:21, Encoding UTF8)
+Report includes: Errors, Warnings, Exclusions
+
+***** Sheet /
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(45.72 mm, 35.56 mm): Symbol J2 Pin A9 [VBUS, Power input, Line]
+[undefined_netclass]: Netclass VSS is not defined
+    ; error
+    @(115.57 mm, 35.56 mm): Label 'VDD'
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(196.85 mm, 123.19 mm): Symbol U1 Pin 7 [+Vs, Power input, Line]
+[undefined_netclass]: Netclass VSS is not defined
+    ; error
+    @(273.05 mm, 123.19 mm): Label 'VDD'
+[label_dangling]: Label not connected
+    ; error
+    @(182.88 mm, 109.22 mm): Hierarchical Label 'IR_VIDEO'
+[label_dangling]: Label not connected
+    ; error
+    @(182.88 mm, 111.76 mm): Hierarchical Label 'AFC_F0'
+[label_dangling]: Label not connected
+    ; error
+    @(182.88 mm, 114.30 mm): Hierarchical Label 'BPF_MONI'
+[label_dangling]: Label not connected
+    ; error
+    @(182.88 mm, 127.00 mm): Hierarchical Label 'REC_RF'
+[label_dangling]: Label not connected
+    ; error
+    @(182.88 mm, 139.70 mm): Hierarchical Label 'EVF_BL'
+[label_dangling]: Label not connected
+    ; error
+    @(182.88 mm, 142.24 mm): Hierarchical Label 'EVF_BL_4V75'
+[label_dangling]: Label not connected
+    ; error
+    @(182.88 mm, 144.78 mm): Hierarchical Label 'VCO'
+[label_dangling]: Label not connected
+    ; error
+    @(182.88 mm, 147.32 mm): Hierarchical Label 'EVF_VG'
+[lib_symbol_mismatch]: Symbol 'USB4125-GF-A-0190_REVA2' doesn't match copy in library 'GDH Connectors'
+    ; warning
+    @(33.02 mm, 43.18 mm): Symbol J2 [USB4125-GF-A-0190_REVA2]
+[lib_symbol_mismatch]: Symbol 'CN910_FPC_CON' doesn't match copy in library 'GDH Connectors'
+    ; warning
+    @(45.72 mm, 132.08 mm): Symbol J1 [CN910_FPC_CON]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(48.26 mm, 132.08 mm): Symbol J1 Pin 1 [LANC_SIG, Unspecified, Line]
+    @(124.46 mm, 54.61 mm): Symbol TP1 Pin 1 [1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(48.26 mm, 134.62 mm): Symbol J1 Pin 2 [XCPC_IN, Unspecified, Line]
+    @(207.01 mm, 83.82 mm): Symbol TP2 Pin 1 [1, Passive, Line]
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(52.07 mm, 137.16 mm): Label 'IR_VIDEO'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(52.07 mm, 139.70 mm): Label 'AFC_F0'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(52.07 mm, 142.24 mm): Label 'BPF_MONI'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(52.07 mm, 154.94 mm): Label 'REC_RF'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(52.07 mm, 162.56 mm): Label 'EVF_BL'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(52.07 mm, 165.10 mm): Label 'EVF_BL_4V75'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(52.07 mm, 167.64 mm): Label 'VCO'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(52.07 mm, 170.18 mm): Label 'EVF_VG'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(97.79 mm, 154.94 mm): Label 'BPF_MONI'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(97.79 mm, 160.02 mm): Label 'EVF_BL'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(97.79 mm, 165.10 mm): Label 'REC_RF'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(97.79 mm, 172.72 mm): Label 'AFC_F0'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(129.54 mm, 185.42 mm): Label 'IR_VIDEO'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(134.62 mm, 185.42 mm): Label 'EVF_VG'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(137.16 mm, 185.42 mm): Label 'EVF_BL_4V75'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(139.70 mm, 185.42 mm): Label 'VCO'
+[lib_symbol_mismatch]: Symbol 'ADA4857-1YRZ-R7' doesn't match copy in library 'GDH Amplifiers'
+    ; warning
+    @(181.61 mm, 127.00 mm): Symbol U1 [ADA4857-1YRZ-R7]
+[lib_symbol_mismatch]: Symbol 'Conn_Coaxial' doesn't match copy in library 'Connector'
+    ; warning
+    @(232.41 mm, 130.81 mm): Symbol J3 [Conn_Coaxial]
+[lib_symbol_mismatch]: Symbol 'RFPC-SMA28-F' doesn't match copy in library 'GDH Connectors'
+    ; warning
+    @(45.72 mm, 148.59 mm): Symbol J4 [RFPC-SMA28-F]
+[lib_symbol_mismatch]: Symbol 'RFPC-SMA28-F' doesn't match copy in library 'GDH Connectors'
+    ; warning
+    @(45.72 mm, 168.91 mm): Symbol J5 [RFPC-SMA28-F]
+[lib_symbol_mismatch]: Symbol 'RFPC-SMA28-F' doesn't match copy in library 'GDH Connectors'
+    ; warning
+    @(73.66 mm, 171.45 mm): Symbol J6 [RFPC-SMA28-F]
+[lib_symbol_mismatch]: Symbol 'RFPC-SMA28-F' doesn't match copy in library 'GDH Connectors'
+    ; warning
+    @(85.09 mm, 147.32 mm): Symbol J7 [RFPC-SMA28-F]
+[lib_symbol_mismatch]: Symbol 'Jumper_3_Bridged12' doesn't match copy in library 'Jumper'
+    ; warning
+    @(54.61 mm, 107.95 mm): Symbol JP1 [Jumper_3_Bridged12]
+
+***** Sheet /Pi Pico/
+[pin_not_connected]: Pin not connected
+    ; error
+    @(95.25 mm, 82.55 mm): Symbol A1 Pin 30 [RUN, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(95.25 mm, 85.09 mm): Symbol A1 Pin 37 [3V3_EN, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(95.25 mm, 90.17 mm): Symbol A1 Pin 1 [GPIO0, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(95.25 mm, 92.71 mm): Symbol A1 Pin 2 [GPIO1, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(95.25 mm, 95.25 mm): Symbol A1 Pin 4 [GPIO2, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(95.25 mm, 97.79 mm): Symbol A1 Pin 5 [GPIO3, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(95.25 mm, 100.33 mm): Symbol A1 Pin 6 [GPIO4, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(95.25 mm, 102.87 mm): Symbol A1 Pin 7 [GPIO5, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(95.25 mm, 105.41 mm): Symbol A1 Pin 9 [GPIO6, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(95.25 mm, 107.95 mm): Symbol A1 Pin 10 [GPIO7, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(95.25 mm, 110.49 mm): Symbol A1 Pin 11 [GPIO8, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(95.25 mm, 113.03 mm): Symbol A1 Pin 12 [GPIO9, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(95.25 mm, 115.57 mm): Symbol A1 Pin 14 [GPIO10, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(95.25 mm, 118.11 mm): Symbol A1 Pin 15 [GPIO11, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(95.25 mm, 120.65 mm): Symbol A1 Pin 16 [GPIO12, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(95.25 mm, 123.19 mm): Symbol A1 Pin 17 [GPIO13, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(95.25 mm, 125.73 mm): Symbol A1 Pin 19 [GPIO14, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(95.25 mm, 128.27 mm): Symbol A1 Pin 20 [GPIO15, Bidirectional, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(113.03 mm, 67.31 mm): Symbol A1 Pin 39 [VSYS, Power input, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(118.11 mm, 67.31 mm): Symbol A1 Pin 40 [VBUS, Power output, Line]
+[pin_to_pin]: Pins of type Power output and Power output are connected
+    ; error
+    @(118.11 mm, 140.97 mm): Symbol A1 Pin 3 [GND, Power output, Line]
+    @(140.97 mm, 128.27 mm): Symbol A1 Pin 33 [AGND, Power output, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(140.97 mm, 100.33 mm): Symbol A1 Pin 25 [GPIO19, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(140.97 mm, 102.87 mm): Symbol A1 Pin 26 [GPIO20, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(140.97 mm, 105.41 mm): Symbol A1 Pin 27 [GPIO21, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(140.97 mm, 107.95 mm): Symbol A1 Pin 29 [GPIO22, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(140.97 mm, 113.03 mm): Symbol A1 Pin 35 [ADC_VREF, Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(140.97 mm, 113.03 mm): Symbol A1 Pin 35 [ADC_VREF, Power input, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(140.97 mm, 118.11 mm): Symbol A1 Pin 31 [GPIO26_ADC0, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(140.97 mm, 120.65 mm): Symbol A1 Pin 32 [GPIO27_ADC1, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(140.97 mm, 123.19 mm): Symbol A1 Pin 34 [GPIO28_ADC2, Bidirectional, Line]
+
+***** Sheet /Pi Pico/LANC Interface/
+[pin_to_pin]: Pins of type Open emitter and Power output are connected
+    ; error
+    @(153.67 mm, 72.39 mm): Symbol Q101 Pin 3 [E, Open emitter, Line]
+    @(140.97 mm, 128.27 mm): Symbol A1 Pin 33 [AGND, Power output, Line]
+[pin_to_pin]: Pins of type Open emitter and Power output are connected
+    ; error
+    @(241.30 mm, 96.52 mm): Symbol Q111 Pin 3 [E, Open emitter, Line]
+    @(140.97 mm, 128.27 mm): Symbol A1 Pin 33 [AGND, Power output, Line]
+[multiple_net_names]: Both PICO_LANC1_RX_N and LANC_SIG_GPIO are attached to the same items; PICO_LANC1_RX_N will be used in the netlist
+    ; warning
+    @(151.13 mm, 58.42 mm): Label 'PICO_LANC1_RX_N'
+    @(157.48 mm, 58.42 mm): Hierarchical Label 'LANC_SIG_GPIO'
+[multiple_net_names]: Both PICO_LANC2_RX_N and XCPC_IN_GPIO are attached to the same items; PICO_LANC2_RX_N will be used in the netlist
+    ; warning
+    @(237.49 mm, 81.28 mm): Label 'PICO_LANC2_RX_N'
+    @(245.11 mm, 81.28 mm): Hierarchical Label 'XCPC_IN_GPIO'
+
+ ** ERC messages: 73  Errors 44  Warnings 29
+
+ ** Ignored checks:
+    - Global label only appears once in the schematic
+    - Four connection points are joined together
+    - SPICE model issue
+    - Assigned footprint doesn't match footprint filters

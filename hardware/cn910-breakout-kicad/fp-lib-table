@@ -1,4 +1,6 @@
 (fp_lib_table
 	(version 7)
-	(lib (name "CN910 Breakout Footprints") (type "KiCad") (uri "${KIPRJMOD}/Libraries/footprints.pretty") (options "") (descr ""))
+	(lib (name "GDH Connectors") (type "KiCad") (uri "${GDH_LIB_DIR}/GDH_connectors.pretty") (options "") (descr "GDH custom connectors (FPC, SMA, USB-C, BNC)"))
+	(lib (name "GDH Switches") (type "KiCad") (uri "${GDH_LIB_DIR}/GDH_switches.pretty") (options "") (descr "GDH custom switches (SS-12D07 slide switch)"))
+	(lib (name "GDH Graphics") (type "KiCad") (uri "${GDH_LIB_DIR}/GDH_graphics.pretty") (options "") (descr "GDH branding/graphics (wordmark)"))
 )

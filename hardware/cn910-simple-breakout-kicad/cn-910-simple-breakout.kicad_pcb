@@ -579,7 +579,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "CN910:GRADCONN_RFPC-SMA28-F"
+	(footprint "GDH Connectors:GRADCONN_RFPC-SMA28-F"
 		(layer "F.Cu")
 		(uuid "4f0207a9-3bdd-4776-a8ba-79838291ede4")
 		(at 162 103.7)
@@ -888,7 +888,7 @@
 			)
 		)
 	)
-	(footprint "CN910:CON_527461671_MOL"
+	(footprint "GDH Connectors:CON_527461671_MOL"
 		(layer "F.Cu")
 		(uuid "812cc071-ba63-49d4-be53-7ea73f46151f")
 		(at 145.05 95.15 -90)
@@ -2414,7 +2414,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "CN910:GRADCONN_RFPC-SMA28-F"
+	(footprint "GDH Connectors:GRADCONN_RFPC-SMA28-F"
 		(layer "F.Cu")
 		(uuid "b5e28775-592f-470d-ac97-4c11c2ce132f")
 		(at 162 93.899639)

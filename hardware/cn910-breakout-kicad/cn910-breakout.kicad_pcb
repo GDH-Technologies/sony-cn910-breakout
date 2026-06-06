@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(general
-		(thickness 1.57)
+		(thickness 1.6)
 		(legacy_teardrops no)
 	)
 	(paper "A4")
@@ -17,6 +17,8 @@
 	(layers
 		(0 "F.Cu" signal)
 		(2 "B.Cu" signal)
+		(9 "F.Adhes" user "F.Adhesive")
+		(11 "B.Adhes" user "B.Adhesive")
 		(13 "F.Paste" user)
 		(15 "B.Paste" user)
 		(5 "F.SilkS" user "F.Silkscreen")
@@ -25,12 +27,18 @@
 		(3 "B.Mask" user)
 		(17 "Dwgs.User" user "User.Drawings")
 		(19 "Cmts.User" user "User.Comments")
+		(21 "Eco1.User" user "User.Eco1")
+		(23 "Eco2.User" user "User.Eco2")
 		(25 "Edge.Cuts" user)
 		(27 "Margin" user)
 		(31 "F.CrtYd" user "F.Courtyard")
 		(29 "B.CrtYd" user "B.Courtyard")
 		(35 "F.Fab" user)
 		(33 "B.Fab" user)
+		(39 "User.1" user)
+		(41 "User.2" user)
+		(43 "User.3" user)
+		(45 "User.4" user)
 	)
 	(setup
 		(stackup
@@ -50,9 +58,9 @@
 			)
 			(layer "dielectric 1"
 				(type "core")
-				(thickness 1.48)
+				(thickness 1.51)
 				(material "FR4")
-				(epsilon_r 4.4)
+				(epsilon_r 4.5)
 				(loss_tangent 0.02)
 			)
 			(layer "B.Cu"
@@ -88,6 +96,7 @@
 		)
 		(capping no)
 		(filling no)
+		(zone_defaults)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -255,7 +264,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "GDH_Technologies:gdh_wordmark"
+	(footprint "GDH Graphics:gdh_wordmark"
 		(layer "F.Cu")
 		(uuid "0c2119ab-babf-44da-9835-456add9c162a")
 		(at 110.551598 56.983015)
@@ -1257,7 +1266,7 @@
 			)
 		)
 	)
-	(footprint "CN910 Breakout Footprints:CON_527461671_MOL"
+	(footprint "GDH Connectors:CON_527461671_MOL"
 		(layer "F.Cu")
 		(uuid "3e89b60c-f28e-4e4e-8d3b-af53315a4b11")
 		(at 91.9 74.7 -90)
@@ -3182,7 +3191,7 @@
 			)
 		)
 	)
-	(footprint "CN910 Breakout Footprints:GRADCONN_RFPC-SMA28-F"
+	(footprint "GDH Connectors:GRADCONN_RFPC-SMA28-F"
 		(layer "F.Cu")
 		(uuid "677bf2c8-3c18-4331-8fd2-8e0c640ebeea")
 		(at 110.25 112.19 90)
@@ -4990,7 +4999,7 @@
 			)
 		)
 	)
-	(footprint "CN910 Breakout Footprints:GRADCONN_RFPC-SMA28-F"
+	(footprint "GDH Connectors:GRADCONN_RFPC-SMA28-F"
 		(layer "F.Cu")
 		(uuid "96a026d2-20a2-4a59-87ae-a934fb0ace43")
 		(at 101.25 112.19 180)
@@ -5701,7 +5710,7 @@
 			)
 		)
 	)
-	(footprint "CN910 Breakout Footprints:GRADCONN_RFPC-SMA28-F"
+	(footprint "GDH Connectors:GRADCONN_RFPC-SMA28-F"
 		(layer "F.Cu")
 		(uuid "aebeee01-eee4-4118-b654-a242474fd5d1")
 		(at 129.24 112.2 180)
@@ -5996,7 +6005,7 @@
 			)
 		)
 	)
-	(footprint "CN910 Breakout Footprints:GRADCONN_RFPC-SMA28-F"
+	(footprint "GDH Connectors:GRADCONN_RFPC-SMA28-F"
 		(layer "F.Cu")
 		(uuid "b0bee174-bd5b-4137-9d1b-791bc24c3168")
 		(at 120.2 112.2)
@@ -6291,7 +6300,7 @@
 			)
 		)
 	)
-	(footprint "CN910 Breakout Footprints:Slide_Switch_SS12D07_CNK"
+	(footprint "GDH Switches:Slide_Switch_SS12D07_CNK"
 		(layer "F.Cu")
 		(uuid "b5fc603f-2d08-4d80-bd60-ff6f10af1adc")
 		(at 101.45 63.5 -90)
@@ -6661,7 +6670,7 @@
 			)
 		)
 	)
-	(footprint "CN910 Breakout Footprints:GCT_USB4125-GF-A-0190_REVA2"
+	(footprint "GDH Connectors:GCT_USB4125-GF-A-0190_REVA2"
 		(layer "F.Cu")
 		(uuid "b6f99697-756c-4d9b-bd73-722d35f83e61")
 		(at 146.2 110.6 90)
@@ -7818,7 +7827,7 @@
 			)
 		)
 	)
-	(footprint "CN910 Breakout Footprints:Molex_0731000154_BNC_RA_THT"
+	(footprint "GDH Connectors:Molex_0731000154_BNC_RA_THT"
 		(layer "F.Cu")
 		(uuid "de9d6925-d232-4345-8b5b-9aaeebb68b30")
 		(at 120.9 73.6 -90)

@@ -882,7 +882,12 @@
       }
     ],
     "used_designators": "",
-    "variants": []
+    "variants": [
+      {
+        "description": "A simple CN910 breakout board for using an externtal amplification",
+        "name": "Simplified"
+      }
+    ]
   },
   "sheets": [
     [

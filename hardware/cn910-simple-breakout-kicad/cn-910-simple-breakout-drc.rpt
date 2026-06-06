@@ -1,0 +1,39 @@
+** Drc report for cn-910-simple-breakout.kicad_pcb **
+** Created on 2026-06-05T21:34:31 **
+** Report includes: Errors, Warnings, Exclusions **
+
+** Found 5 DRC violations **
+[clearance]: Clearance violation ( clearance 0.1500 mm; actual 8.000e-06 mm)
+    Local override; error
+    @(145.5250 mm, 89.5000 mm): Pad P1 [unconnected-(J1-PadP1)] of J1 on F.Cu
+    @(147.0500 mm, 88.8500 mm): Polygon [<no net>] of J1 on F.Cu
+[clearance]: Clearance violation ( clearance 0.1500 mm; actual 8.000e-06 mm)
+    Local override; error
+    @(147.0500 mm, 101.4500 mm): Polygon [<no net>] of J1 on F.Cu
+    @(145.5250 mm, 100.8000 mm): Pad P2 [unconnected-(J1-PadP2)] of J1 on F.Cu
+[lib_footprint_mismatch]: Footprint 'GRADCONN_RFPC-SMA28-F' does not match copy in library 'GDH Connectors'
+    Local override; warning
+    @(162.0000 mm, 103.7000 mm): Footprint J3
+[lib_footprint_mismatch]: Footprint 'CON_527461671_MOL' does not match copy in library 'GDH Connectors'
+    Local override; warning
+    @(145.0500 mm, 95.1500 mm): Footprint J1
+[lib_footprint_mismatch]: Footprint 'GRADCONN_RFPC-SMA28-F' does not match copy in library 'GDH Connectors'
+    Local override; warning
+    @(162.0000 mm, 93.8996 mm): Footprint J2
+
+** Found 1 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(168.3794 mm, 90.2293 mm): Pad 1 [Net-(R1-Pad2)] of TP2 on F.Cu
+    @(168.3794 mm, 92.7329 mm): Pad 2 [Net-(R1-Pad2)] of R1 on F.Cu
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **

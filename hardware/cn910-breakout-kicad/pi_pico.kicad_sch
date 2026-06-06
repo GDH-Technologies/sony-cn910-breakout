@@ -10,7 +10,7 @@
 		(company "GDH Technologies LLC")
 	)
 	(lib_symbols
-		(symbol "CN910 Breakout Symbols:RFPC-SMA28-F"
+		(symbol "GDH Connectors:RFPC-SMA28-F"
 			(pin_names
 				(offset 1.016)
 			)
@@ -41,7 +41,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "RFPC-SMA28-F:GRADCONN_RFPC-SMA28-F"
+			(property "Footprint" "GDH Connectors:GRADCONN_RFPC-SMA28-F"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2388,7 +2388,7 @@
 		(uuid "fd814474-712f-4e1b-86fd-97c69ba29478")
 	)
 	(symbol
-		(lib_id "CN910 Breakout Symbols:RFPC-SMA28-F")
+		(lib_id "GDH Connectors:RFPC-SMA28-F")
 		(at 85.09 147.32 0)
 		(mirror y)
 		(unit 1)
@@ -2420,7 +2420,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CN910 Breakout Footprints:GRADCONN_RFPC-SMA28-F"
+		(property "Footprint" "GDH Connectors:GRADCONN_RFPC-SMA28-F"
 			(at 85.09 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -2759,7 +2759,7 @@
 		)
 	)
 	(symbol
-		(lib_id "CN910 Breakout Symbols:RFPC-SMA28-F")
+		(lib_id "GDH Connectors:RFPC-SMA28-F")
 		(at 73.66 171.45 0)
 		(mirror y)
 		(unit 1)
@@ -2791,7 +2791,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CN910 Breakout Footprints:GRADCONN_RFPC-SMA28-F"
+		(property "Footprint" "GDH Connectors:GRADCONN_RFPC-SMA28-F"
 			(at 73.66 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -3130,7 +3130,7 @@
 		)
 	)
 	(symbol
-		(lib_id "CN910 Breakout Symbols:RFPC-SMA28-F")
+		(lib_id "GDH Connectors:RFPC-SMA28-F")
 		(at 45.72 148.59 0)
 		(mirror y)
 		(unit 1)
@@ -3162,7 +3162,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CN910 Breakout Footprints:GRADCONN_RFPC-SMA28-F"
+		(property "Footprint" "GDH Connectors:GRADCONN_RFPC-SMA28-F"
 			(at 45.72 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -3465,7 +3465,7 @@
 		)
 	)
 	(symbol
-		(lib_id "CN910 Breakout Symbols:RFPC-SMA28-F")
+		(lib_id "GDH Connectors:RFPC-SMA28-F")
 		(at 45.72 168.91 0)
 		(mirror y)
 		(unit 1)
@@ -3496,7 +3496,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CN910 Breakout Footprints:GRADCONN_RFPC-SMA28-F"
+		(property "Footprint" "GDH Connectors:GRADCONN_RFPC-SMA28-F"
 			(at 45.72 168.91 0)
 			(hide yes)
 			(show_name no)
