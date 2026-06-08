@@ -941,7 +941,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/527461671?display=pdf"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f6173e34-8d1f-4333-acac-1beb7a082d8a")
@@ -953,7 +953,7 @@
 			)
 		)
 		(property "Description" "Sony CN910 16-pos FPC interposer (Molex 527461671)"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8a6344a8-a1d9-44d5-96c4-01f222af75df")
@@ -994,14 +994,6 @@
 		(path "/259b1798-9ecc-4af2-9032-75853a96b21f")
 		(sheetname "/")
 		(sheetfile "cn-910-simple-breakout.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "P1" "P2" "1" "2" "3" "4" "5" "6" "7" "8" "9" "10" "11" "12" "13"
-					"14" "15" "16"
-				)
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1193,6 +1185,18 @@
 			)
 			(layer "F.Fab")
 			(uuid "7184bffb-5635-4d9d-887b-b09ce30e57e1")
+		)
+		(fp_text user "527461671"
+			(at 0 -8.89 270)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "b585bcec-90c6-43ac-af3d-70f487ebdc32")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 -6.35 270)
