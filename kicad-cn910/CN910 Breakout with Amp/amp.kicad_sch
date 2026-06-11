@@ -1,0 +1,5361 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "6a6f6844-6245-4df2-9222-52836b667922")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "GDH Amplifiers:ADA4857"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ADA4857"
+				(at 0 15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+				(at 0 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADA4857-1_4857-2.pdf"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "ADI ADA4857-1 low-distortion high-speed op-amp (R_8/SOIC-8)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C208021"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MFR.Part" "ADA4857-1YRZ-R7"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "ADA4857_0_1"
+				(rectangle
+					(start -12.7 12.7)
+					(end 12.7 -12.7)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin output line
+					(at -15.24 10.16 0)
+					(length 2.54)
+					(name "FB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 3.81 0)
+					(length 2.54)
+					(name "-IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -3.81 0)
+					(length 2.54)
+					(name "+IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -15.24 -10.16 0)
+					(length 2.54)
+					(name "-Vs"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 15.24 -10.16 180)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 -3.81 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 3.81 180)
+					(length 2.54)
+					(name "+Vs"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 10.16 180)
+					(length 2.54)
+					(name "PD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "GDH Modules:AP7375-50SR-7"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U2"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AP7375-50SR-7"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+				(at 0 5.715 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.diodes.com/datasheet/download/AP7375.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Linear Voltage Regulator IC Positive Fixed 1 Output 300mA SOT-23-3"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "linear regulator ldo fixed positive"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TSOT?23*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "AP7375-50SR-7_0_1"
+				(rectangle
+					(start -5.08 1.905)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "AP7375-50SR-7_1_1"
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "VO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "VI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "GND_1"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_1_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "GND_4"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_4_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_4_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "GND_6"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_6_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_6_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "GND_7"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_7_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_7_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Switch:SW_SPDT"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_SPDT"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Switch, single pole double throw"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SW_SPDT_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 0.254) (xy 1.651 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_SPDT_1_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(rectangle
+		(start 103.9019 43.6217)
+		(end 156.6069 92.5167)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 0 194 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "bc6c1ffb-9e48-47bc-a206-d1809967fad8")
+	)
+	(text "Midsupply Bias Network"
+		(exclude_from_sim no)
+		(at 132.0959 47.0507 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 194 0 194 1)
+			)
+		)
+		(uuid "81751d4d-5329-4fcc-83f6-aee1411a52e8")
+	)
+	(text_box "SW ON: PD is pulled LOW and LED is ON\n\nSW OFF: PD is pulled HIGH by R_PU1 and LED is OFF"
+		(exclude_from_sim no)
+		(at 216.2969 88.0717 0)
+		(size 30.48 13.335)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "c7d22298-f945-4179-bc9d-0a833d7b1f72")
+	)
+	(junction
+		(at 194.0719 122.9967)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "00f33ed1-81e9-4729-9c37-cc9d6dbd16a8")
+	)
+	(junction
+		(at 192.8019 109.0267)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2e808409-108f-46fc-8eef-5434bec3e301")
+	)
+	(junction
+		(at 192.8019 100.1367)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "40829553-deba-4a16-9476-c324243ec4fa")
+	)
+	(junction
+		(at 220.7419 128.0767)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "661ac517-f07a-4656-8b30-9b0be82758d3")
+	)
+	(junction
+		(at 92.4719 119.1867)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6960fba3-2c3b-4100-8b61-2a0ffe21ba3a")
+	)
+	(junction
+		(at 124.2219 64.5767)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7e5f6255-a986-4dbd-8f8f-53bd17e795b2")
+	)
+	(junction
+		(at 78.5019 129.3467)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8bc233c7-3c71-46cb-90f1-19b8ce0c400d")
+	)
+	(junction
+		(at 235.9819 115.3767)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8da06bef-8227-456c-93b1-350d0afe5f06")
+	)
+	(junction
+		(at 220.7419 115.3767)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b4e4713d-c693-4b17-a0d9-a483fc6c32a7")
+	)
+	(junction
+		(at 102.6319 109.0267)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba221c4b-e321-46ec-b5bb-b6da8ed1bf42")
+	)
+	(junction
+		(at 124.2219 79.8167)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bc6b48ab-46d3-4a8c-8701-60efa6e41638")
+	)
+	(junction
+		(at 135.6519 64.5767)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c37886c8-70e2-4be1-b7ee-772ff8799862")
+	)
+	(junction
+		(at 110.2519 79.8167)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce6d121e-d133-4a8a-af1a-d15ee2fc019d")
+	)
+	(junction
+		(at 115.3319 109.0267)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e253fa57-35bd-4333-a22b-d9369d66814c")
+	)
+	(junction
+		(at 110.2519 64.5767)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e6b391f7-80f3-4060-b5a9-3cc736b3a04e")
+	)
+	(junction
+		(at 192.8019 82.3567)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ff95956a-5455-44bb-970e-79a48483af92")
+	)
+	(no_connect
+		(at 188.9919 95.0567)
+		(uuid "a507af6a-c034-4ae6-8750-6e9b20a1a399")
+	)
+	(wire
+		(pts
+			(xy 92.4719 119.1867) (xy 102.6319 119.1867)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01155795-19b8-4452-85cd-50eefc56eee5")
+	)
+	(wire
+		(pts
+			(xy 78.5019 102.6767) (xy 78.5019 112.8367)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01adf03d-c528-4493-a0c2-fa9ca5faeb2f")
+	)
+	(wire
+		(pts
+			(xy 204.2319 93.7867) (xy 204.2319 97.5967)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0deca7ed-2e2a-4f69-9b26-e99513188aa3")
+	)
+	(wire
+		(pts
+			(xy 235.9819 125.5367) (xy 235.9819 128.0767)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "108ca311-7438-494a-838a-d8e8bccc6578")
+	)
+	(wire
+		(pts
+			(xy 135.6519 64.5767) (xy 142.0019 64.5767)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10ba9dff-5113-493d-8f3f-2cfaa504c33b")
+	)
+	(wire
+		(pts
+			(xy 102.6319 109.0267) (xy 102.6319 111.5667)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1232d919-1d89-4d6c-94e8-abd926035e9b")
+	)
+	(wire
+		(pts
+			(xy 166.1319 109.0267) (xy 192.8019 109.0267)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12b5d6c9-e022-4b78-a9fb-f4dcb2cc5ab3")
+	)
+	(wire
+		(pts
+			(xy 226.06 66.04) (xy 226.06 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "166d987f-e618-4738-8235-8f942a4ced0d")
+	)
+	(wire
+		(pts
+			(xy 111.5219 109.0267) (xy 115.3319 109.0267)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "191ed502-adca-451a-b3d2-065931053126")
+	)
+	(wire
+		(pts
+			(xy 235.9819 128.0767) (xy 220.7419 128.0767)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "200133cf-d096-4125-8105-6dae6f1a1113")
+	)
+	(wire
+		(pts
+			(xy 124.2219 76.0067) (xy 124.2219 79.8167)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23252248-2288-4306-a034-96c820ee1f97")
+	)
+	(wire
+		(pts
+			(xy 194.0719 122.9967) (xy 196.6119 122.9967)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 194 1)
+		)
+		(uuid "23363653-c2e1-44d7-968a-835597ea8323")
+	)
+	(wire
+		(pts
+			(xy 199.39 57.15) (xy 213.36 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24a40423-40bc-4c17-bd4a-a9f3b9159167")
+	)
+	(wire
+		(pts
+			(xy 188.9919 100.1367) (xy 192.8019 100.1367)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b4144bd-de7e-49d5-ad8f-a66aaa844a80")
+	)
+	(wire
+		(pts
+			(xy 110.2519 79.8167) (xy 110.2519 82.3567)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e27ca78-ef94-40a7-ba00-7bab4a6bfa87")
+	)
+	(wire
+		(pts
+			(xy 192.8019 73.4667) (xy 192.8019 82.3567)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ffc153f-c381-4da4-8350-13a087f26cf7")
+	)
+	(wire
+		(pts
+			(xy 110.2519 122.9967) (xy 135.6519 122.9967)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30d38196-30f2-4ab4-8f02-34a4660da5f6")
+	)
+	(wire
+		(pts
+			(xy 50.5619 129.3467) (xy 61.9919 129.3467)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "329e0ffc-1853-477f-8409-2a17d3a2482c")
+	)
+	(wire
+		(pts
+			(xy 171.2119 97.5967) (xy 171.2119 103.9467)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "406d3a86-58ce-4b24-ad29-c279d215883f")
+	)
+	(wire
+		(pts
+			(xy 130.5719 109.0267) (xy 135.6519 109.0267)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4118efee-161c-4000-a300-cec0ec419685")
+	)
+	(wire
+		(pts
+			(xy 135.6519 60.7667) (xy 135.6519 64.5767)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b135ee0-06c5-4808-85c2-e5520597eca9")
+	)
+	(wire
+		(pts
+			(xy 220.98 64.77) (xy 220.98 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c17cc1d-f90d-4e92-8b6a-b6cd00f62286")
+	)
+	(wire
+		(pts
+			(xy 142.0019 68.3867) (xy 142.0019 64.5767)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c3888d8-6b80-4c97-9c4f-99cac7925985")
+	)
+	(wire
+		(pts
+			(xy 135.6519 129.3467) (xy 128.0319 129.3467)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "543c0258-5e55-44fb-9768-86825b0637f0")
+	)
+	(wire
+		(pts
+			(xy 30.48 129.54) (xy 35.56 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55a0f0a1-32b6-4c8a-8b0f-798b0f36c939")
+	)
+	(wire
+		(pts
+			(xy 102.6319 109.0267) (xy 92.4719 109.0267)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57536514-faca-4209-99a5-14e40ae48b35")
+	)
+	(wire
+		(pts
+			(xy 124.2219 68.3867) (xy 124.2219 64.5767)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59c5768d-de22-41dd-a09d-74efaee42c86")
+	)
+	(wire
+		(pts
+			(xy 204.2319 86.1667) (xy 204.2319 82.3567)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a0e8465-9778-4a73-a4c1-434b9738065d")
+	)
+	(wire
+		(pts
+			(xy 110.2519 129.3467) (xy 110.2519 122.9967)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c9fa615-47d3-4a29-b70a-c837ce18d123")
+	)
+	(wire
+		(pts
+			(xy 177.5619 122.9967) (xy 182.6419 122.9967)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 194 1)
+		)
+		(uuid "5fd8132b-2219-42e8-b2cc-e8d839a08669")
+	)
+	(wire
+		(pts
+			(xy 135.6519 115.3767) (xy 115.3319 115.3767)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6277e823-5281-4f3a-873b-257d964326d1")
+	)
+	(wire
+		(pts
+			(xy 115.3319 109.0267) (xy 122.9519 109.0267)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bf9f42f-1437-423f-b647-667afdf48ea2")
+	)
+	(wire
+		(pts
+			(xy 78.5019 129.3467) (xy 110.2519 129.3467)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bfdfe15-1610-431e-a119-306f0fc0331d")
+	)
+	(wire
+		(pts
+			(xy 220.7419 115.3767) (xy 220.7419 117.9167)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "770c6687-bc6c-4cb6-8303-963b9f8e644f")
+	)
+	(wire
+		(pts
+			(xy 235.9819 115.3767) (xy 235.9819 117.9167)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ecca048-7922-45f5-96f6-54f53a1fed29")
+	)
+	(wire
+		(pts
+			(xy 110.2519 76.0067) (xy 110.2519 79.8167)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a5d09a8-f2d4-4e1d-b45c-2c637a57921d")
+	)
+	(wire
+		(pts
+			(xy 78.5019 129.3467) (xy 78.5019 120.4567)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9457def2-71a1-403c-861c-741aff888130")
+	)
+	(wire
+		(pts
+			(xy 92.4719 119.1867) (xy 92.4719 120.4567)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98556af7-b996-422b-837b-0c7d6652283b")
+	)
+	(wire
+		(pts
+			(xy 220.7419 125.5367) (xy 220.7419 128.0767)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bf53411-4019-433c-aa20-2046da60bf6d")
+	)
+	(wire
+		(pts
+			(xy 103.9019 109.0267) (xy 102.6319 109.0267)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d160b23-59b6-42f4-91f5-610c310f754a")
+	)
+	(wire
+		(pts
+			(xy 192.8019 100.1367) (xy 192.8019 109.0267)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d9ebd2b-ef15-4cfe-b6ac-f0f9ae800dff")
+	)
+	(wire
+		(pts
+			(xy 194.0719 119.1867) (xy 194.0719 122.9967)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 194 1)
+		)
+		(uuid "9f4db2a3-9378-42f0-b267-c0b197b3d094")
+	)
+	(wire
+		(pts
+			(xy 210.82 151.13) (xy 220.98 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0a9000a-5c21-4ae8-800e-d5e253f3ffbf")
+	)
+	(wire
+		(pts
+			(xy 124.2219 79.8167) (xy 110.2519 79.8167)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a38c1bc5-276e-4506-b139-ab446c253902")
+	)
+	(wire
+		(pts
+			(xy 69.6119 129.3467) (xy 78.5019 129.3467)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a428aa9d-5a5a-4b16-861c-52a67a39c244")
+	)
+	(wire
+		(pts
+			(xy 110.2519 64.5767) (xy 124.2219 64.5767)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa03d7e0-30df-4d36-b556-60fb41d2195e")
+	)
+	(wire
+		(pts
+			(xy 192.8019 82.3567) (xy 192.8019 86.1667)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abe1cb70-3e5c-4c9c-8c9b-34c9381af5f8")
+	)
+	(wire
+		(pts
+			(xy 166.1319 122.9967) (xy 169.9419 122.9967)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 194 1)
+		)
+		(uuid "ac8b0613-5bfb-4e80-ba4f-57262790ef67")
+	)
+	(wire
+		(pts
+			(xy 110.2519 64.5767) (xy 110.2519 68.3867)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acebef89-77ca-4fbd-aadc-58022c26c560")
+	)
+	(wire
+		(pts
+			(xy 192.8019 93.7867) (xy 192.8019 100.1367)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3d48c00-dfda-472a-b36c-10b3437e1b22")
+	)
+	(wire
+		(pts
+			(xy 115.3319 115.3767) (xy 115.3319 109.0267)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b59d2259-b81e-48b7-a7fd-42ed1b7cb99c")
+	)
+	(wire
+		(pts
+			(xy 110.2519 60.7667) (xy 110.2519 64.5767)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6380a24-1a6b-494f-be88-017155af2154")
+	)
+	(wire
+		(pts
+			(xy 110.2519 48.0667) (xy 110.2519 53.1467)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b802e0e6-0ffd-41a8-bd72-879ee41f4422")
+	)
+	(wire
+		(pts
+			(xy 124.2219 64.5767) (xy 135.6519 64.5767)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c24034d7-8ca3-4cf8-a8a9-a9def6c1eae3")
+	)
+	(wire
+		(pts
+			(xy 178.8319 97.5967) (xy 171.2119 97.5967)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4633002-8993-4e5f-813f-e43aad1dc1aa")
+	)
+	(wire
+		(pts
+			(xy 92.4719 109.0267) (xy 92.4719 111.5667)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4ddf9cf-a6d6-4e41-b075-13e9deb2c653")
+	)
+	(wire
+		(pts
+			(xy 142.0019 76.0067) (xy 142.0019 79.8167)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7b0fa6d-fa0f-4504-90c3-23149f64eb97")
+	)
+	(wire
+		(pts
+			(xy 204.2319 109.0267) (xy 192.8019 109.0267)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf350925-fb3d-4ae8-a1fa-01f78a7556aa")
+	)
+	(wire
+		(pts
+			(xy 128.0319 129.3467) (xy 128.0319 135.6967)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfc7eb68-ffad-47c4-95df-a923b676242a")
+	)
+	(wire
+		(pts
+			(xy 235.9819 115.3767) (xy 242.3319 115.3767)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d339a58d-07d0-463c-8caf-5fa8300dda34")
+	)
+	(wire
+		(pts
+			(xy 220.98 66.04) (xy 226.06 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcf436cb-883d-4e89-b726-5daa678a1c4b")
+	)
+	(wire
+		(pts
+			(xy 166.1319 115.3767) (xy 220.7419 115.3767)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de3261b5-0520-4011-a3ba-fd02ce8895d1")
+	)
+	(wire
+		(pts
+			(xy 142.0019 79.8167) (xy 124.2219 79.8167)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e62d3c12-1a11-4068-a732-9c653cd79636")
+	)
+	(wire
+		(pts
+			(xy 204.2319 105.2167) (xy 204.2319 109.0267)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb888ee8-c4dd-4d48-908e-686cc675e785")
+	)
+	(wire
+		(pts
+			(xy 220.7419 128.0767) (xy 220.7419 130.6167)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecb7fc69-b14e-4056-88dc-5a29ad5e8164")
+	)
+	(wire
+		(pts
+			(xy 204.2319 82.3567) (xy 192.8019 82.3567)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efec5cfa-8f78-4bef-be2c-3cbf3854db4f")
+	)
+	(wire
+		(pts
+			(xy 228.6 57.15) (xy 243.84 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9bd31f1-71b5-4c85-ae68-a4a2a990d101")
+	)
+	(wire
+		(pts
+			(xy 190.2619 122.9967) (xy 194.0719 122.9967)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 194 1)
+		)
+		(uuid "fa262e04-f9db-4369-aeab-d18ce0e139b3")
+	)
+	(wire
+		(pts
+			(xy 220.7419 115.3767) (xy 235.9819 115.3767)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc61633e-a614-4ff7-85e0-9ec8a38bc96d")
+	)
+	(label "V_{DD}"
+		(at 242.3319 115.3767 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "08acba53-18b5-4d03-a286-e111ff1fa169")
+		(property "Net Class" "VSS"
+			(at 242.3319 118.2977 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(label "USB_5V"
+		(at 237.49 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1c70124d-67d0-41f7-8b74-90f4f27b30d2")
+	)
+	(label "V_{DD}"
+		(at 110.2519 48.0667 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "77dac738-3723-41af-80df-d2553f699de7")
+	)
+	(label "V_{DD}"
+		(at 199.39 57.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "877bfbd7-e330-4d20-9fd8-0ad0745800e8")
+	)
+	(label "V_{REF}"
+		(at 78.5019 102.6767 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "97e8fcd4-1bb5-4f9f-951a-e537773d62db")
+		(property "VREF" "2.5V"
+			(at 78.5019 103.9467 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(label "PB_RF_OUT"
+		(at 194.0719 119.1867 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "baf23466-4611-4534-b6cd-9950df04f612")
+		(property "Net Class" "FM_RF"
+			(at 194.0719 120.4567 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(label "PB_RF"
+		(at 50.5619 129.3467 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c77cc49f-b91c-4379-8d6b-d0610710a270")
+		(property "V" "~0.4Vpp"
+			(at 50.5619 130.6167 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Fc" "3.579545455KHz"
+			(at 50.5619 132.2677 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(label "PD"
+		(at 182.6419 109.0267 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d95d17bf-28c5-4dec-9229-e434c3452014")
+	)
+	(label "USB_5V"
+		(at 192.8019 73.4667 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f32648f8-0ccd-45c4-9b2d-7dde48418d28")
+	)
+	(label "PB_RF"
+		(at 35.56 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f6061ce0-9dee-4018-b525-cdd5cb004ba3")
+	)
+	(label "PB_RF_OUT"
+		(at 210.82 151.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f8c60974-95a4-4c46-81df-6e43b8678bc7")
+	)
+	(label "V_{REF}"
+		(at 135.6519 60.7667 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fa2b3757-616c-4eaf-98be-44c9b8b3ecf2")
+	)
+	(hierarchical_label "V_{USB}"
+		(shape input)
+		(at 243.84 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "adc184e0-1a82-495b-bce7-0dad6fd8f652")
+	)
+	(hierarchical_label "PB_RF"
+		(shape input)
+		(at 30.48 129.54 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d102e7f6-a9ae-478f-b15c-9cf47c939285")
+	)
+	(hierarchical_label "PB_RF_OUT"
+		(shape output)
+		(at 220.98 151.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d9ecdc1c-ba29-4eb8-b89a-180d6a102102")
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 168.6719 122.9967 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4bbd5509-78fe-4841-a760-0f01977e780a")
+		(property "Net Class" "FM_RF"
+			(at 169.3704 120.4567 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 112.7919 3.6167 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 178.8319 122.9967 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9bbe7029-561b-445c-98f0-824a8aa30c07")
+		(property "Net Class" "FM_RF"
+			(at 179.5304 120.4567 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 122.9519 3.6167 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 126.7619 122.9967 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f17211c9-d64f-414b-a993-a7140cba0658")
+		(property "Net Class" "FM_RF"
+			(at 127.4604 120.4567 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 70.8819 3.6167 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 107.7119 109.0267 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "03d17b3b-bde2-4b09-9e5b-4623429c628f")
+		(property "Reference" "RG1"
+			(at 107.7119 102.6767 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "82"
+			(at 107.7119 105.2167 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 107.7119 110.8047 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.7119 109.0267 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 107.7119 109.0267 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7644d4b6-b4c6-4a5b-b856-1f003f457f36")
+		)
+		(pin "1"
+			(uuid "b1df27f7-e2da-42db-8dfa-490e174ca090")
+		)
+		(instances
+			(project "CN910 Breakout with Amp"
+				(path "/aee4fde2-9edf-435b-9ea7-f0b13e42d35f/3e7c0c47-9aa2-4920-8bf8-19ffc2b432cd"
+					(reference "RG1")
+					(unit 1)
+				)
+			)
+			(project "ADA4857 Noninverting Amplifier"
+				(path "/f428ca5c-4ef8-4ef1-b597-43b7e31a860d"
+					(reference "RG1")
+					(unit 1)
+				)
+			)
+			(project "cn910-breakout"
+				(path "/f59c37af-48f6-4dd0-89b6-a5866369b568"
+					(reference "RG1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 110.2519 56.9567 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "08c6391b-84d2-404c-9d7e-953d428e1c28")
+		(property "Reference" "RA1"
+			(at 112.7919 55.6866 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22k"
+			(at 112.7919 58.2266 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 108.4739 56.9567 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.2519 56.9567 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 110.2519 56.9567 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b73fd719-0020-4bfa-ab9a-5304ae8696db")
+		)
+		(pin "2"
+			(uuid "96787755-3985-4725-b349-f6c40b719dc4")
+		)
+		(instances
+			(project "CN910 Breakout with Amp"
+				(path "/aee4fde2-9edf-435b-9ea7-f0b13e42d35f/3e7c0c47-9aa2-4920-8bf8-19ffc2b432cd"
+					(reference "RA1")
+					(unit 1)
+				)
+			)
+			(project "ADA4857 Noninverting Amplifier"
+				(path "/f428ca5c-4ef8-4ef1-b597-43b7e31a860d"
+					(reference "RA1")
+					(unit 1)
+				)
+			)
+			(project "cn910-breakout"
+				(path "/f59c37af-48f6-4dd0-89b6-a5866369b568"
+					(reference "RA1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_7")
+		(lib_id "power:GND")
+		(at 220.7419 130.6167 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "08f011cf-d3ce-4900-b77d-c6749d55c909")
+		(property "Reference" "#PWR08"
+			(at 220.7419 136.9667 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 220.7419 135.6967 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.7419 130.6167 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.7419 130.6167 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 220.7419 130.6167 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "44cdd947-5593-4c7d-893d-621ac8489aa0")
+		)
+		(instances
+			(project "CN910 Breakout with Amp"
+				(path "/aee4fde2-9edf-435b-9ea7-f0b13e42d35f/3e7c0c47-9aa2-4920-8bf8-19ffc2b432cd"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+			(project "ADA4857 Noninverting Amplifier"
+				(path "/f428ca5c-4ef8-4ef1-b597-43b7e31a860d"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+			(project "cn910-breakout"
+				(path "/f59c37af-48f6-4dd0-89b6-a5866369b568"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 92.4719 115.3767 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "092ba7d2-81f3-4613-9820-24adaa8ad524")
+		(property "Reference" "C1"
+			(at 96.2819 114.1066 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47u"
+			(at 96.2819 116.6466 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 93.4371 119.1867 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.4719 115.3767 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 92.4719 115.3767 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f81de3db-a8ba-4239-ae14-de36daa195a4")
+		)
+		(pin "1"
+			(uuid "f56f649f-e4a9-456c-9a20-9bfc9a958456")
+		)
+		(instances
+			(project "CN910 Breakout with Amp"
+				(path "/aee4fde2-9edf-435b-9ea7-f0b13e42d35f/3e7c0c47-9aa2-4920-8bf8-19ffc2b432cd"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+			(project "ADA4857 Noninverting Amplifier"
+				(path "/f428ca5c-4ef8-4ef1-b597-43b7e31a860d"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+			(project "cn910-breakout"
+				(path "/f59c37af-48f6-4dd0-89b6-a5866369b568"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GDH Modules:AP7375-50SR-7")
+		(at 220.98 57.15 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0b2c97c5-7279-4b20-a917-f82e324eea89")
+		(property "Reference" "U2"
+			(at 220.98 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AP7375-50SR-7"
+			(at 220.98 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+			(at 220.98 51.435 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/datasheet/download/AP7375.pdf"
+			(at 220.98 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Linear Voltage Regulator IC Positive Fixed 1 Output 300mA SOT-23-3"
+			(at 220.98 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "7a83dee5-21b9-443e-be55-d5409b87bfe1")
+		)
+		(pin "2"
+			(uuid "16d82869-521b-4fbc-a9fb-e223b458f73f")
+		)
+		(pin "1"
+			(uuid "c653b260-be7e-4a57-a2c9-e0fe347ac859")
+		)
+		(instances
+			(project "CN910 Breakout with Amp"
+				(path "/aee4fde2-9edf-435b-9ea7-f0b13e42d35f/3e7c0c47-9aa2-4920-8bf8-19ffc2b432cd"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 128.0319 135.6967 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "108f02e3-878c-4ff8-a267-182d5379d72e")
+		(property "Reference" "#PWR06"
+			(at 128.0319 142.0467 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 128.0319 140.7767 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.0319 135.6967 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.0319 135.6967 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 128.0319 135.6967 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "59465f5e-b3e4-482c-a1d7-2b441845a212")
+		)
+		(instances
+			(project "CN910 Breakout with Amp"
+				(path "/aee4fde2-9edf-435b-9ea7-f0b13e42d35f/3e7c0c47-9aa2-4920-8bf8-19ffc2b432cd"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+			(project "ADA4857 Noninverting Amplifier"
+				(path "/f428ca5c-4ef8-4ef1-b597-43b7e31a860d"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_4")
+		(lib_id "power:GND")
+		(at 171.2119 103.9467 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "116e9338-82d4-4416-8139-604f88b34825")
+		(property "Reference" "#PWR07"
+			(at 171.2119 110.2967 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 173.7519 106.7407 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.2119 103.9467 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.2119 103.9467 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 171.2119 103.9467 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "60df5e8a-82f3-4a92-bb28-75e7be71ee95")
+		)
+		(instances
+			(project "CN910 Breakout with Amp"
+				(path "/aee4fde2-9edf-435b-9ea7-f0b13e42d35f/3e7c0c47-9aa2-4920-8bf8-19ffc2b432cd"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+			(project "ADA4857 Noninverting Amplifier"
+				(path "/f428ca5c-4ef8-4ef1-b597-43b7e31a860d"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+			(project "cn910-breakout"
+				(path "/f59c37af-48f6-4dd0-89b6-a5866369b568"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 126.7619 109.0267 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4363fbf7-42af-4e80-9065-8531e4b247a2")
+		(property "Reference" "RF1"
+			(at 126.7619 102.6767 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "560"
+			(at 126.7619 105.2167 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 126.7619 107.2487 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 126.7619 109.0267 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 126.7619 109.0267 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7644d4b6-b4c6-4a5b-b856-1f003f457f35")
+		)
+		(pin "1"
+			(uuid "b1df27f7-e2da-42db-8dfa-490e174ca08f")
+		)
+		(instances
+			(project "CN910 Breakout with Amp"
+				(path "/aee4fde2-9edf-435b-9ea7-f0b13e42d35f/3e7c0c47-9aa2-4920-8bf8-19ffc2b432cd"
+					(reference "RF1")
+					(unit 1)
+				)
+			)
+			(project "ADA4857 Noninverting Amplifier"
+				(path "/f428ca5c-4ef8-4ef1-b597-43b7e31a860d"
+					(reference "RF1")
+					(unit 1)
+				)
+			)
+			(project "cn910-breakout"
+				(path "/f59c37af-48f6-4dd0-89b6-a5866369b568"
+					(reference "RF1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 110.2519 82.3567 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f9fbec2-b8d1-4411-abd0-9687f469a472")
+		(property "Reference" "#PWR05"
+			(at 110.2519 88.7067 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 110.2519 87.4367 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.2519 82.3567 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.2519 82.3567 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 110.2519 82.3567 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7cc3a862-beb0-4b13-9adf-5d7a2cf34332")
+		)
+		(instances
+			(project "CN910 Breakout with Amp"
+				(path "/aee4fde2-9edf-435b-9ea7-f0b13e42d35f/3e7c0c47-9aa2-4920-8bf8-19ffc2b432cd"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+			(project "ADA4857 Noninverting Amplifier"
+				(path "/f428ca5c-4ef8-4ef1-b597-43b7e31a860d"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+			(project "cn910-breakout"
+				(path "/f59c37af-48f6-4dd0-89b6-a5866369b568"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 204.2319 89.9767 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "534baa41-a442-4303-9023-fba178b598b4")
+		(property "Reference" "R_LED1"
+			(at 206.7719 88.7066 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "270"
+			(at 206.7719 91.2466 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 206.0099 89.9767 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.2319 89.9767 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 204.2319 89.9767 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b0fb6afe-1e7a-47e1-b749-ed3cb3342c76")
+		)
+		(pin "2"
+			(uuid "e7b009a6-1b77-47fb-bbd1-a7c74dc12025")
+		)
+		(instances
+			(project "CN910 Breakout with Amp"
+				(path "/aee4fde2-9edf-435b-9ea7-f0b13e42d35f/3e7c0c47-9aa2-4920-8bf8-19ffc2b432cd"
+					(reference "R_LED1")
+					(unit 1)
+				)
+			)
+			(project "ADA4857 Noninverting Amplifier"
+				(path "/f428ca5c-4ef8-4ef1-b597-43b7e31a860d"
+					(reference "R_LED1")
+					(unit 1)
+				)
+			)
+			(project "cn910-breakout"
+				(path "/f59c37af-48f6-4dd0-89b6-a5866369b568"
+					(reference "R_LED1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 102.6319 115.3767 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "58adf739-b7cb-4acd-bada-7d99feb091af")
+		(property "Reference" "C2"
+			(at 106.4419 114.1066 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 106.4419 116.6466 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 103.5971 119.1867 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.6319 115.3767 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 102.6319 115.3767 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "317b405d-27ad-46dc-b331-d2053158d561")
+		)
+		(pin "1"
+			(uuid "6f918fca-2403-4a51-8ca7-70c909c337a6")
+		)
+		(instances
+			(project "CN910 Breakout with Amp"
+				(path "/aee4fde2-9edf-435b-9ea7-f0b13e42d35f/3e7c0c47-9aa2-4920-8bf8-19ffc2b432cd"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+			(project "ADA4857 Noninverting Amplifier"
+				(path "/f428ca5c-4ef8-4ef1-b597-43b7e31a860d"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+			(project "cn910-breakout"
+				(path "/f59c37af-48f6-4dd0-89b6-a5866369b568"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 192.8019 89.9767 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6fda2619-8b48-4c69-b6ee-53ba7b98ef37")
+		(property "Reference" "R_PU1"
+			(at 195.3419 88.7066 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 195.3419 91.2466 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 191.0239 89.9767 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 192.8019 89.9767 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 192.8019 89.9767 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "640a5486-0288-4d85-8d6d-88666ba2da31")
+		)
+		(pin "2"
+			(uuid "2f2ea236-13ea-4634-b96e-538bb5026c60")
+		)
+		(instances
+			(project "CN910 Breakout with Amp"
+				(path "/aee4fde2-9edf-435b-9ea7-f0b13e42d35f/3e7c0c47-9aa2-4920-8bf8-19ffc2b432cd"
+					(reference "R_PU1")
+					(unit 1)
+				)
+			)
+			(project "ADA4857 Noninverting Amplifier"
+				(path "/f428ca5c-4ef8-4ef1-b597-43b7e31a860d"
+					(reference "R_PU1")
+					(unit 1)
+				)
+			)
+			(project "cn910-breakout"
+				(path "/f59c37af-48f6-4dd0-89b6-a5866369b568"
+					(reference "R_PU1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 186.4519 122.9967 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8303adf9-d787-40df-913a-e468b1e14c62")
+		(property "Reference" "R_OUT1"
+			(at 186.4519 125.7907 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "75"
+			(at 186.4519 128.3307 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 186.4519 124.7747 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.4519 122.9967 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 186.4519 122.9967 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR.Part" "0603WAF750JT5E"
+			(at 186.4519 122.9967 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C4275"
+			(at 186.4519 122.9967 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "89aa4241-1244-453d-a42d-48d37e8cdf76")
+		)
+		(pin "2"
+			(uuid "f1d128e0-8581-4fe7-83e2-f9906d1fb390")
+		)
+		(instances
+			(project "CN910 Breakout with Amp"
+				(path "/aee4fde2-9edf-435b-9ea7-f0b13e42d35f/3e7c0c47-9aa2-4920-8bf8-19ffc2b432cd"
+					(reference "R_OUT1")
+					(unit 1)
+				)
+			)
+			(project "ADA4857 Noninverting Amplifier"
+				(path "/f428ca5c-4ef8-4ef1-b597-43b7e31a860d"
+					(reference "R_OUT1")
+					(unit 1)
+				)
+			)
+			(project "cn910-breakout"
+				(path "/f59c37af-48f6-4dd0-89b6-a5866369b568"
+					(reference "R_OUT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_6")
+		(lib_id "power:GND")
+		(at 92.4719 120.4567 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a51ff3c0-b602-4773-a53e-7a355790ae02")
+		(property "Reference" "#PWR04"
+			(at 92.4719 126.8067 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 92.4719 124.2667 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.4719 120.4567 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.4719 120.4567 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 92.4719 120.4567 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dc4063bb-c8cc-43df-801b-9920b3bcf89a")
+		)
+		(instances
+			(project "CN910 Breakout with Amp"
+				(path "/aee4fde2-9edf-435b-9ea7-f0b13e42d35f/3e7c0c47-9aa2-4920-8bf8-19ffc2b432cd"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+			(project "ADA4857 Noninverting Amplifier"
+				(path "/f428ca5c-4ef8-4ef1-b597-43b7e31a860d"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+			(project "cn910-breakout"
+				(path "/f59c37af-48f6-4dd0-89b6-a5866369b568"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 78.5019 116.6467 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "aaaa2de8-f0ba-427b-b5a3-9a192117d562")
+		(property "Reference" "R_BIAS1"
+			(at 83.5819 115.3767 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 83.5819 117.9167 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 76.7239 116.6467 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.5019 116.6467 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 78.5019 116.6467 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "69c097e9-2004-4c47-ab49-7890dfab6be3")
+		)
+		(pin "2"
+			(uuid "fdc90f2f-9ccb-4c5c-9a5c-cc24f0ac6547")
+		)
+		(instances
+			(project "CN910 Breakout with Amp"
+				(path "/aee4fde2-9edf-435b-9ea7-f0b13e42d35f/3e7c0c47-9aa2-4920-8bf8-19ffc2b432cd"
+					(reference "R_BIAS1")
+					(unit 1)
+				)
+			)
+			(project "ADA4857 Noninverting Amplifier"
+				(path "/f428ca5c-4ef8-4ef1-b597-43b7e31a860d"
+					(reference "R_BIAS1")
+					(unit 1)
+				)
+			)
+			(project "cn910-breakout"
+				(path "/f59c37af-48f6-4dd0-89b6-a5866369b568"
+					(reference "R_BIAS1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 226.06 69.85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b5e3371c-48b0-490e-8edf-8ac33045bce2")
+		(property "Reference" "#PWR09"
+			(at 226.06 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 226.06 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 226.06 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1d94b2e6-1a80-4ac6-bfd1-7d29d3b89f88")
+		)
+		(instances
+			(project "CN910 Breakout with Amp"
+				(path "/aee4fde2-9edf-435b-9ea7-f0b13e42d35f/3e7c0c47-9aa2-4920-8bf8-19ffc2b432cd"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 124.2219 72.1967 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b7c29986-3bc0-47be-a83c-6696dae85e08")
+		(property "Reference" "C_VREF_A1"
+			(at 128.0319 70.9266 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 128.0319 73.4666 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 125.1871 76.0067 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.2219 72.1967 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 124.2219 72.1967 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fef8f432-047b-42f8-8999-82542116acc6")
+		)
+		(pin "2"
+			(uuid "cecefd79-24b5-4696-b829-46cbb56e7ebd")
+		)
+		(instances
+			(project "CN910 Breakout with Amp"
+				(path "/aee4fde2-9edf-435b-9ea7-f0b13e42d35f/3e7c0c47-9aa2-4920-8bf8-19ffc2b432cd"
+					(reference "C_VREF_A1")
+					(unit 1)
+				)
+			)
+			(project "ADA4857 Noninverting Amplifier"
+				(path "/f428ca5c-4ef8-4ef1-b597-43b7e31a860d"
+					(reference "C_VREF_A1")
+					(unit 1)
+				)
+			)
+			(project "cn910-breakout"
+				(path "/f59c37af-48f6-4dd0-89b6-a5866369b568"
+					(reference "C_VREF_A1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 220.7419 121.7267 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b8082ab1-b2cb-43c2-a246-edbf841984c2")
+		(property "Reference" "C3"
+			(at 224.5519 120.4566 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 224.5519 122.9966 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 221.7071 125.5367 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.7419 121.7267 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 220.7419 121.7267 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1bca52e1-626f-4446-a457-e8b159d39693")
+		)
+		(pin "1"
+			(uuid "e2ea59ff-55f6-4e2d-bed4-038d86723fb5")
+		)
+		(instances
+			(project "CN910 Breakout with Amp"
+				(path "/aee4fde2-9edf-435b-9ea7-f0b13e42d35f/3e7c0c47-9aa2-4920-8bf8-19ffc2b432cd"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+			(project "ADA4857 Noninverting Amplifier"
+				(path "/f428ca5c-4ef8-4ef1-b597-43b7e31a860d"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+			(project "cn910-breakout"
+				(path "/f59c37af-48f6-4dd0-89b6-a5866369b568"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 110.2519 72.1967 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c538a367-9469-44f7-bdfa-8d456e6542de")
+		(property "Reference" "RB1"
+			(at 112.7919 70.9266 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22k"
+			(at 112.7919 73.4666 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 108.4739 72.1967 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.2519 72.1967 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 110.2519 72.1967 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "65adc04e-8d64-4061-90f8-151a049fd908")
+		)
+		(pin "2"
+			(uuid "ee6d0475-08ff-41c4-b4d3-107a2e821d81")
+		)
+		(instances
+			(project "CN910 Breakout with Amp"
+				(path "/aee4fde2-9edf-435b-9ea7-f0b13e42d35f/3e7c0c47-9aa2-4920-8bf8-19ffc2b432cd"
+					(reference "RB1")
+					(unit 1)
+				)
+			)
+			(project "ADA4857 Noninverting Amplifier"
+				(path "/f428ca5c-4ef8-4ef1-b597-43b7e31a860d"
+					(reference "RB1")
+					(unit 1)
+				)
+			)
+			(project "cn910-breakout"
+				(path "/f59c37af-48f6-4dd0-89b6-a5866369b568"
+					(reference "RB1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 173.7519 122.9967 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c661eb84-b4c3-4d03-8e8c-975e9c22d8c9")
+		(property "Reference" "C_OUT1"
+			(at 173.7519 128.3307 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47u"
+			(at 173.7519 130.8707 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 169.9419 122.0315 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.7519 122.9967 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 173.7519 122.9967 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C96123"
+			(at 173.7519 122.9967 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR.Part" "CL31A476MPHNNNE"
+			(at 173.7519 122.9967 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "430ed4f7-28e5-43f0-b0cc-06ffdf4d93ba")
+		)
+		(pin "2"
+			(uuid "49b1a2ff-4d32-4e5c-a582-5fe725da7761")
+		)
+		(instances
+			(project "CN910 Breakout with Amp"
+				(path "/aee4fde2-9edf-435b-9ea7-f0b13e42d35f/3e7c0c47-9aa2-4920-8bf8-19ffc2b432cd"
+					(reference "C_OUT1")
+					(unit 1)
+				)
+			)
+			(project "ADA4857 Noninverting Amplifier"
+				(path "/f428ca5c-4ef8-4ef1-b597-43b7e31a860d"
+					(reference "C_OUT1")
+					(unit 1)
+				)
+			)
+			(project "cn910-breakout"
+				(path "/f59c37af-48f6-4dd0-89b6-a5866369b568"
+					(reference "C_OUT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 65.8019 129.3467 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cedb4eaa-003c-4a1a-b0c1-243e4c2a27b9")
+		(property "Reference" "C_IN1"
+			(at 65.8019 121.7267 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 65.8019 124.2667 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 69.6119 128.3815 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 65.8019 129.3467 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 65.8019 129.3467 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8ea3297e-d4b0-43a2-9361-3c6694e21858")
+		)
+		(pin "2"
+			(uuid "ed486f64-efaa-4670-b860-1c331d774cc8")
+		)
+		(instances
+			(project "CN910 Breakout with Amp"
+				(path "/aee4fde2-9edf-435b-9ea7-f0b13e42d35f/3e7c0c47-9aa2-4920-8bf8-19ffc2b432cd"
+					(reference "C_IN1")
+					(unit 1)
+				)
+			)
+			(project "ADA4857 Noninverting Amplifier"
+				(path "/f428ca5c-4ef8-4ef1-b597-43b7e31a860d"
+					(reference "C_IN1")
+					(unit 1)
+				)
+			)
+			(project "cn910-breakout"
+				(path "/f59c37af-48f6-4dd0-89b6-a5866369b568"
+					(reference "C_IN1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GDH Amplifiers:ADA4857")
+		(at 150.8919 119.1867 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d1b9950e-5561-4977-9acc-805448745e18")
+		(property "Reference" "U1"
+			(at 150.8919 101.4067 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ADA4857"
+			(at 150.8919 103.9467 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "GDH Amplifiers:ADA4857-1YRZ-R7"
+			(at 150.8919 136.9667 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADA4857-1_4857-2.pdf"
+			(at 150.8919 134.4267 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "ADI ADA4857-1 low-distortion high-speed op-amp (R_8/SOIC-8)"
+			(at 150.8919 119.1867 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C208021"
+			(at 150.8919 119.1867 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR.Part" "ADA4857-1YRZ-R7"
+			(at 150.8919 119.1867 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "1b6dd8e5-137f-4e36-af4b-9b572d07ff0f")
+		)
+		(pin "4"
+			(uuid "cd9ae148-0d11-4c81-a7f9-45aac21606cb")
+		)
+		(pin "2"
+			(uuid "ffcc91bc-ec56-4cd2-82d2-af92ee064765")
+		)
+		(pin "6"
+			(uuid "52a21900-2fff-4982-9de9-69892080e362")
+		)
+		(pin "7"
+			(uuid "8930da73-f458-4804-9165-808bbbaa6aba")
+		)
+		(pin "1"
+			(uuid "38f72c3a-a875-4f47-bc0c-a31279cc8fc6")
+		)
+		(pin "3"
+			(uuid "cb2f6d66-234f-4d97-9afd-5ba76e527efd")
+		)
+		(pin "8"
+			(uuid "a62df69a-fb16-4192-8628-58981102fc49")
+		)
+		(instances
+			(project "CN910 Breakout with Amp"
+				(path "/aee4fde2-9edf-435b-9ea7-f0b13e42d35f/3e7c0c47-9aa2-4920-8bf8-19ffc2b432cd"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+			(project "ADA4857 Noninverting Amplifier"
+				(path "/f428ca5c-4ef8-4ef1-b597-43b7e31a860d"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+			(project "cn910-breakout"
+				(path "/f59c37af-48f6-4dd0-89b6-a5866369b568"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 142.0019 72.1967 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc477887-ba3c-494e-b3e8-65a7752d1c72")
+		(property "Reference" "C_VREF_B1"
+			(at 145.8119 70.9266 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100n"
+			(at 145.8119 73.4666 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 141.0367 68.3867 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.0019 72.1967 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 142.0019 72.1967 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ec1157b3-a7f7-4f11-8299-5d7b1f7762fa")
+		)
+		(pin "1"
+			(uuid "c09cf028-79e2-4c71-bfc5-01700dccd778")
+		)
+		(instances
+			(project "CN910 Breakout with Amp"
+				(path "/aee4fde2-9edf-435b-9ea7-f0b13e42d35f/3e7c0c47-9aa2-4920-8bf8-19ffc2b432cd"
+					(reference "C_VREF_B1")
+					(unit 1)
+				)
+			)
+			(project "ADA4857 Noninverting Amplifier"
+				(path "/f428ca5c-4ef8-4ef1-b597-43b7e31a860d"
+					(reference "C_VREF_B1")
+					(unit 1)
+				)
+			)
+			(project "cn910-breakout"
+				(path "/f59c37af-48f6-4dd0-89b6-a5866369b568"
+					(reference "C_VREF_B1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPDT")
+		(at 183.9119 97.5967 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e68dd21b-9627-46af-ac74-79d1e2184cf2")
+		(property "Reference" "SW1"
+			(at 183.9119 92.0087 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPDT"
+			(at 183.9119 89.4687 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "GDH Switches:Slide_Switch_SS12D07_CNK"
+			(at 183.9119 97.5967 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 183.9119 89.9767 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 183.9119 97.5967 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cf11382b-0b7c-44bd-9b59-0db37b6f5d27")
+		)
+		(pin "3"
+			(uuid "b12fa9c0-b05f-476c-8770-c92dcbefd27e")
+		)
+		(pin "2"
+			(uuid "62789b81-5c8c-43e6-aba7-8c2ecd2a8875")
+		)
+		(instances
+			(project "CN910 Breakout with Amp"
+				(path "/aee4fde2-9edf-435b-9ea7-f0b13e42d35f/3e7c0c47-9aa2-4920-8bf8-19ffc2b432cd"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+			(project "ADA4857 Noninverting Amplifier"
+				(path "/f428ca5c-4ef8-4ef1-b597-43b7e31a860d"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+			(project "cn910-breakout"
+				(path "/f59c37af-48f6-4dd0-89b6-a5866369b568"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 204.2319 101.4067 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e77897c0-796d-4209-9681-61b93a3d5eaf")
+		(property "Reference" "D1"
+			(at 208.0419 101.7241 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 208.0419 104.2641 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 204.2319 101.4067 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.2319 101.4067 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 204.2319 101.4067 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 204.2319 101.4067 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5c3c633d-7ba4-4630-a517-c294bdc22c4e")
+		)
+		(pin "1"
+			(uuid "a841c18b-867a-479f-bf11-3fa5c3ada9c6")
+		)
+		(instances
+			(project "CN910 Breakout with Amp"
+				(path "/aee4fde2-9edf-435b-9ea7-f0b13e42d35f/3e7c0c47-9aa2-4920-8bf8-19ffc2b432cd"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+			(project "ADA4857 Noninverting Amplifier"
+				(path "/f428ca5c-4ef8-4ef1-b597-43b7e31a860d"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+			(project "cn910-breakout"
+				(path "/f59c37af-48f6-4dd0-89b6-a5866369b568"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 235.9819 121.7267 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd9535a2-e490-4eb9-a1fd-568566960581")
+		(property "Reference" "C4"
+			(at 239.7919 120.4566 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 239.7919 122.9966 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 236.9471 125.5367 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 235.9819 121.7267 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 235.9819 121.7267 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d6921b8b-0e9f-4859-999d-d60819c1b171")
+		)
+		(pin "2"
+			(uuid "2fce8552-56d7-4edd-bd3d-edb6c143404e")
+		)
+		(instances
+			(project "CN910 Breakout with Amp"
+				(path "/aee4fde2-9edf-435b-9ea7-f0b13e42d35f/3e7c0c47-9aa2-4920-8bf8-19ffc2b432cd"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+			(project "ADA4857 Noninverting Amplifier"
+				(path "/f428ca5c-4ef8-4ef1-b597-43b7e31a860d"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+			(project "cn910-breakout"
+				(path "/f59c37af-48f6-4dd0-89b6-a5866369b568"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(group "ADA4857 Noninverting Amplifier1"
+		(uuid "81d5d190-f29d-48c3-b3e8-0f693ff06ed2")
+		(lib_id "GDH_design_blocks:ADA4857 Noninverting Amplifier")
+		(members "00f33ed1-81e9-4729-9c37-cc9d6dbd16a8" "01155795-19b8-4452-85cd-50eefc56eee5"
+			"01adf03d-c528-4493-a0c2-fa9ca5faeb2f" "03d17b3b-bde2-4b09-9e5b-4623429c628f"
+			"08acba53-18b5-4d03-a286-e111ff1fa169" "08c6391b-84d2-404c-9d7e-953d428e1c28"
+			"08f011cf-d3ce-4900-b77d-c6749d55c909" "092ba7d2-81f3-4613-9820-24adaa8ad524"
+			"0deca7ed-2e2a-4f69-9b26-e99513188aa3" "108ca311-7438-494a-838a-d8e8bccc6578"
+			"108f02e3-878c-4ff8-a267-182d5379d72e" "10ba9dff-5113-493d-8f3f-2cfaa504c33b"
+			"116e9338-82d4-4416-8139-604f88b34825" "1232d919-1d89-4d6c-94e8-abd926035e9b"
+			"12b5d6c9-e022-4b78-a9fb-f4dcb2cc5ab3" "191ed502-adca-451a-b3d2-065931053126"
+			"1c70124d-67d0-41f7-8b74-90f4f27b30d2" "200133cf-d096-4125-8105-6dae6f1a1113"
+			"23252248-2288-4306-a034-96c820ee1f97" "23363653-c2e1-44d7-968a-835597ea8323"
+			"2b4144bd-de7e-49d5-ad8f-a66aaa844a80" "2e27ca78-ef94-40a7-ba00-7bab4a6bfa87"
+			"2e808409-108f-46fc-8eef-5434bec3e301" "2ffc153f-c381-4da4-8350-13a087f26cf7"
+			"30d38196-30f2-4ab4-8f02-34a4660da5f6" "329e0ffc-1853-477f-8409-2a17d3a2482c"
+			"406d3a86-58ce-4b24-ad29-c279d215883f" "40829553-deba-4a16-9476-c324243ec4fa"
+			"4118efee-161c-4000-a300-cec0ec419685" "4363fbf7-42af-4e80-9065-8531e4b247a2"
+			"4b135ee0-06c5-4808-85c2-e5520597eca9" "4bbd5509-78fe-4841-a760-0f01977e780a"
+			"4c3888d8-6b80-4c97-9c4f-99cac7925985" "4f9fbec2-b8d1-4411-abd0-9687f469a472"
+			"534baa41-a442-4303-9023-fba178b598b4" "543c0258-5e55-44fb-9768-86825b0637f0"
+			"57536514-faca-4209-99a5-14e40ae48b35" "58adf739-b7cb-4acd-bada-7d99feb091af"
+			"59c5768d-de22-41dd-a09d-74efaee42c86" "5a0e8465-9778-4a73-a4c1-434b9738065d"
+			"5c9fa615-47d3-4a29-b70a-c837ce18d123" "5fd8132b-2219-42e8-b2cc-e8d839a08669"
+			"6277e823-5281-4f3a-873b-257d964326d1" "661ac517-f07a-4656-8b30-9b0be82758d3"
+			"6960fba3-2c3b-4100-8b61-2a0ffe21ba3a" "6bf9f42f-1437-423f-b647-667afdf48ea2"
+			"6bfdfe15-1610-431e-a119-306f0fc0331d" "6fda2619-8b48-4c69-b6ee-53ba7b98ef37"
+			"770c6687-bc6c-4cb6-8303-963b9f8e644f" "77dac738-3723-41af-80df-d2553f699de7"
+			"7e5f6255-a986-4dbd-8f8f-53bd17e795b2" "7ecca048-7922-45f5-96f6-54f53a1fed29"
+			"81751d4d-5329-4fcc-83f6-aee1411a52e8" "8303adf9-d787-40df-913a-e468b1e14c62"
+			"8a5d09a8-f2d4-4e1d-b45c-2c637a57921d" "8bc233c7-3c71-46cb-90f1-19b8ce0c400d"
+			"8da06bef-8227-456c-93b1-350d0afe5f06" "9457def2-71a1-403c-861c-741aff888130"
+			"97e8fcd4-1bb5-4f9f-951a-e537773d62db" "98556af7-b996-422b-837b-0c7d6652283b"
+			"9bbe7029-561b-445c-98f0-824a8aa30c07" "9bf53411-4019-433c-aa20-2046da60bf6d"
+			"9d160b23-59b6-42f4-91f5-610c310f754a" "9d9ebd2b-ef15-4cfe-b6ac-f0f9ae800dff"
+			"9f4db2a3-9378-42f0-b267-c0b197b3d094" "a38c1bc5-276e-4506-b139-ab446c253902"
+			"a428aa9d-5a5a-4b16-861c-52a67a39c244" "a507af6a-c034-4ae6-8750-6e9b20a1a399"
+			"a51ff3c0-b602-4773-a53e-7a355790ae02" "aa03d7e0-30df-4d36-b556-60fb41d2195e"
+			"aaaa2de8-f0ba-427b-b5a3-9a192117d562" "abe1cb70-3e5c-4c9c-8c9b-34c9381af5f8"
+			"ac8b0613-5bfb-4e80-ba4f-57262790ef67" "acebef89-77ca-4fbd-aadc-58022c26c560"
+			"b3d48c00-dfda-472a-b36c-10b3437e1b22" "b4e4713d-c693-4b17-a0d9-a483fc6c32a7"
+			"b59d2259-b81e-48b7-a7fd-42ed1b7cb99c" "b6380a24-1a6b-494f-be88-017155af2154"
+			"b7c29986-3bc0-47be-a83c-6696dae85e08" "b802e0e6-0ffd-41a8-bd72-879ee41f4422"
+			"b8082ab1-b2cb-43c2-a246-edbf841984c2" "ba221c4b-e321-46ec-b5bb-b6da8ed1bf42"
+			"baf23466-4611-4534-b6cd-9950df04f612" "bc6b48ab-46d3-4a8c-8701-60efa6e41638"
+			"bc6c1ffb-9e48-47bc-a206-d1809967fad8" "c24034d7-8ca3-4cf8-a8a9-a9def6c1eae3"
+			"c37886c8-70e2-4be1-b7ee-772ff8799862" "c4633002-8993-4e5f-813f-e43aad1dc1aa"
+			"c4ddf9cf-a6d6-4e41-b075-13e9deb2c653" "c538a367-9469-44f7-bdfa-8d456e6542de"
+			"c661eb84-b4c3-4d03-8e8c-975e9c22d8c9" "c77cc49f-b91c-4379-8d6b-d0610710a270"
+			"c7b0fa6d-fa0f-4504-90c3-23149f64eb97" "c7d22298-f945-4179-bc9d-0a833d7b1f72"
+			"ce6d121e-d133-4a8a-af1a-d15ee2fc019d" "cedb4eaa-003c-4a1a-b0c1-243e4c2a27b9"
+			"cf350925-fb3d-4ae8-a1fa-01f78a7556aa" "cfc7eb68-ffad-47c4-95df-a923b676242a"
+			"d1b9950e-5561-4977-9acc-805448745e18" "d339a58d-07d0-463c-8caf-5fa8300dda34"
+			"d95d17bf-28c5-4dec-9229-e434c3452014" "dc477887-ba3c-494e-b3e8-65a7752d1c72"
+			"de3261b5-0520-4011-a3ba-fd02ce8895d1" "e253fa57-35bd-4333-a22b-d9369d66814c"
+			"e62d3c12-1a11-4068-a732-9c653cd79636" "e68dd21b-9627-46af-ac74-79d1e2184cf2"
+			"e6b391f7-80f3-4060-b5a9-3cc736b3a04e" "e77897c0-796d-4209-9681-61b93a3d5eaf"
+			"eb888ee8-c4dd-4d48-908e-686cc675e785" "ecb7fc69-b14e-4056-88dc-5a29ad5e8164"
+			"efec5cfa-8f78-4bef-be2c-3cbf3854db4f" "f17211c9-d64f-414b-a993-a7140cba0658"
+			"f32648f8-0ccd-45c4-9b2d-7dde48418d28" "fa262e04-f9db-4369-aeab-d18ce0e139b3"
+			"fa2b3757-616c-4eaf-98be-44c9b8b3ecf2" "fc61633e-a614-4ff7-85e0-9ec8a38bc96d"
+			"fd9535a2-e490-4eb9-a1fd-568566960581" "ff95956a-5455-44bb-970e-79a48483af92"
+		)
+	)
+)

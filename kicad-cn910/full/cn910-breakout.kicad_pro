@@ -687,6 +687,9 @@
       "/PB_RF_OUT": [
         "FM_RF"
       ],
+      "/PICO_V_{SYS}": [
+        "+5V"
+      ],
       "/RF_AGC_IN": [
         "Analog"
       ],
@@ -694,6 +697,10 @@
         "Analog"
       ],
       "/VDD": [
+        "VSS"
+      ],
+      "/V_{DD}": [
+        "+5V",
         "VSS"
       ],
       "Net-(C_OUT1-Pad1)": [
@@ -878,12 +885,6 @@
         },
         {
           "group_by": false,
-          "label": "MANUFACTURER",
-          "name": "MANUFACTURER",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "PARTREV",
           "name": "PARTREV",
           "show": false
@@ -904,6 +905,18 @@
           "group_by": false,
           "label": "Sim.Type",
           "name": "Sim.Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
           "show": false
         }
       ],
@@ -991,6 +1004,10 @@
     [
       "bdfc165a-8414-4472-ac43-2c73aa51ee3c",
       "LANC Interface"
+    ],
+    [
+      "a151bc35-73a7-474e-a15f-42221d83ecbd",
+      "USB-C Power"
     ]
   ],
   "text_variables": {

@@ -1,0 +1,44 @@
+** Drc report for CN910 Breakout with Amp.kicad_pcb **
+** Created on 2026-06-10T13:45:41 **
+** Report includes: Errors, Warnings **
+
+** Found 7 DRC violations **
+[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; 1 spokes connected to isolated island)
+    Local override; error
+    @(100.0521 mm, 76.5904 mm): Zone 'GND_PLANE' [GND] on F.Cu and B.Cu, priority 0
+    @(121.4402 mm, 80.1898 mm): PTH pad 2 [GND] of SW1
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(117.0079 mm, 82.4631 mm): Segment of SW1 on F.Silkscreen
+    @(123.3941 mm, 83.4491 mm): Reference field of C2
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(119.5763 mm, 94.5813 mm): Reference field of C_VREF_B1
+    @(113.5829 mm, 94.6546 mm): Reference field of C_VREF_A1
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(116.1949 mm, 92.6353 mm): Reference field of R_BIAS1
+    @(113.5829 mm, 94.6546 mm): Reference field of C_VREF_A1
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(116.1949 mm, 92.6353 mm): Reference field of R_BIAS1
+    @(119.5763 mm, 94.5813 mm): Reference field of C_VREF_B1
+[lib_footprint_mismatch]: Footprint 'CON_527461671_MOL' does not match copy in library 'GDH Connectors'
+    Local override; warning
+    @(107.5920 mm, 92.8707 mm): Footprint J1
+[lib_footprint_mismatch]: Footprint 'SOT-23-3' does not match copy in library 'Package_TO_SOT_SMD'
+    Local override; warning
+    @(116.5566 mm, 101.8511 mm): Footprint U2
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **
