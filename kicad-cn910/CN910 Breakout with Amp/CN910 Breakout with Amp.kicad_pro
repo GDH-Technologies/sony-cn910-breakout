@@ -932,7 +932,7 @@
         "uuid": "aee4fde2-9edf-435b-9ea7-f0b13e42d35f"
       }
     ],
-    "used_designators": "SW1,RG1,RB1,R_OUT1,H1-4,#PWR1-11,C1-6,RA1,FB1,C_IN1,U1-2,R_PU1,D1,C_OUT1,C_VREF_A1,RF1,C_VREF_B1,J1-3,R_BIAS1,R_LED1,R1-2",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
